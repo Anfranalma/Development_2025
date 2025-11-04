@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Concert Carousel with Modal Scrollbar</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      flex-direction: column;
+    }
+    /* Carousel Container */
+    .carousel {
+      position: relative;
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      background: #fff;
+    }
+    /* Carousel Track */
+    .carousel-track {
+      display: flex;
+      transition: transform 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    /* Card Styling */
+    .card {
+      /* Desktop: 3 cards per row */
+      flex: 0 0 calc(33.333% - 20px);
+      margin: 10px;
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      min-height: 250px;
+      background-color: #ccc; /* fallback */
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 70%);
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    .card:hover::before {
+      opacity: 0.8;
+    }
+    .textos {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      z-index: 2;
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .card:hover .textos {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .textos h2 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    .textos h4,
+    .textos h6 {
+      margin: 5px 0 0;
+      font-size: 1em;
+    }
+    /* Navigation Buttons */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.6);
+      border: none;
+      color: #fff;
+      font-size: 2.5rem;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 3;
+      transition: background 0.3s ease;
+    }
+    .carousel-btn:hover {
+      background: rgba(0,0,0,0.8);
+    }
+    .prev {
+      left: 15px;
+    }
+    .next {
+      right: 15px;
+    }
+    /* Dot Indicators */
+    .carousel-dots {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 3;
+    }
+    .carousel-dots button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.7);
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .carousel-dots button.active {
+      background: #fff;
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 900px) {
+      /* Tablet: 2 cards per row */
+      .card {
+        flex: 0 0 calc(50% - 20px);
+      }
+    }
+    @media (max-width: 600px) {
+      /* Mobile: 1 card per row */
+      .card {
+        flex: 0 0 calc(100% - 20px);
+      }
+    }
+    /* Modal Styles */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.5);
+    }
+    .modal-content {
+      background-color: #fff;
+      margin: 5% auto;
+      padding: 20px;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 600px;
+      position: relative;
+      max-height: 80vh; /* Maximum height of modal content */
+      overflow-y: auto; /* Scrollbar appears if content overflows */
+    }
+    .close {
+      color: #aaa;
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover,
+    .close:focus {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <button class="carousel-btn prev">‹</button>
+    <div class="carousel-track">
+      <!-- Card 1 -->
+      <div class="card" style="background-image: url('./img/bitches.jpg');">
+        <div class="textos">
+          <h2>Guns N' Roses</h2>
+          <h4>February 24th 2024 19h00</h4>
+          <h6>Green Bay Stadium, Green Bay, US</h6>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card" style="background-image: url('./img/drain.webp');">
+        <div class="textos">
+          <h2>Metallica</h2>
+          <h4>February 26 2024 19h00</h4>
+          <h6>Montreal Olympic Stadium, Montreal, QC, CA</h6>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card" style="background-image: url('./img/music-rainbow.jpg');">
+        <div class="textos">
+          <h2>Megadeth</h2>
+          <h4>March 24th 2024 19h00</h4>
+          <h6>Germantown Stadium, Maryland, US</h6>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card" style="background-image: url('./img/music-rainbow.jpg');">
+        <div class="textos">
+          <h2>Iron Maiden</h2>
+          <h4>April 24th 2024 19h00</h4>
+          <h6>Dundas Park, London, UK</h6>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="card" style="background-image: url('./img/japan.jpg');">
+        <div class="textos">
+          <h2>Black Sabbath</h2>
+          <h4>June 24th 2024 19h00</h4>
+          <h6>Estadio Azteca, Mexico DF, Mexico</h6>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="card" style="background-image: url('./img/drugadicts.webp');">
+        <div class="textos">
+          <h2>Placebo</h2>
+          <h4>July 24th 2024 19h00</h4>
+          <h6>Blue Jas, Toronto, ON, CA</h6>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="card" style="background-image: url('./img/piano.jpg');">
+        <div class="textos">
+          <h2>Muse</h2>
+          <h4>February 19 2024 19h00</h4>
+          <h6>Bernard Park, Sydney, AU</h6>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="card" style="background-image: url('./img/télécharger.jpg');">
+        <div class="textos">
+          <h2>Poison</h2>
+          <h4>February 2nd 2024 19h00</h4>
+          <h6>Luna Park, Sacramento, US</h6>
+        </div>
+      </div>
+      <!-- Card 9 -->
+      <div class="card" style="background-image: url('./img/télécharger.jpg');">
+        <div class="textos">
+          <h2>Bon Jovi</h2>
+          <h4>October 2nd 2024 19h00</h4>
+          <h6>Playa El Progreso, Honduras</h6>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next">›</button>
+    <div class="carousel-dots"></div>
+  </div>
+
+  <!-- Modal for detailed event info -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Event Details</h2>
+      <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex animi nobis laudantium accusamus illum itaque reiciendis, aperiam eveniet voluptate unde, ducimus deserunt. Sunt impedit, quisquam alias nisi inventore voluptates delectus!
+       Nisi molestias eligendi blanditiis fugit beatae ab culpa laboriosam consequuntur illo quae adipisci maiores quisquam laudantium fuga nobis quasi consectetur corporis odit totam, repudiandae atque! Qui quidem maxime repellat voluptates.
+       At consequatur eaque laudantium assumenda, neque distinctio est dolore nobis, saepe facilis magni fuga nemo beatae quod dicta quam explicabo quidem aut commodi suscipit dolores! Amet saepe ab nostrum ad.
+       Rem in eos explicabo illum facilis maxime voluptates necessitatibus similique optio minima alias sequi unde iusto ut cumque itaque dignissimos magnam, repellendus neque! Nesciunt nostrum eius voluptatibus, quidem placeat iste.
+       Laboriosam aperiam magnam aliquid labore dolorum a, enim odit magni repellendus consectetur nobis eos! Officia atque sed possimus aperiam quam tempore, soluta rerum, repellat voluptatibus vel neque alias iste aut.
+       Suscipit, dolores mollitia cumque excepturi adipisci dolore repellat, totam atque commodi rem amet temporibus et corrupti aspernatur reprehenderit? Eligendi repellat debitis in voluptatum fugiat alias aperiam aspernatur error sapiente nemo!
+       Atque, quo. Nobis aliquid harum quos, accusamus, est dolorem beatae pariatur eaque tenetur modi fugit, ipsa fugiat natus illo magnam nulla perferendis voluptas ratione iste? Tenetur beatae deleniti qui quisquam.
+       Quasi sunt, temporibus amet minima cum at natus quos cupiditate voluptatum similique magnam sit architecto libero cumque nobis delectus asperiores atque alias dolorem molestias incidunt illum tempora. Vero, natus eius.
+       Enim, praesentium? Eveniet, unde velit? Suscipit aperiam voluptas tenetur adipisci ratione. Expedita sint magnam repellat dolorum adipisci officiis pariatur, tenetur, iusto eveniet quibusdam iste vero quisquam a temporibus assumenda non?
+       Eaque corrupti natus eligendi rem debitis quo laboriosam itaque quas ratione quisquam culpa earum aperiam ipsam sapiente at nesciunt maiores possimus tempora, fugit perferendis, id sequi, temporibus corporis! Non, possimus!
+       Omnis ipsum alias eum soluta corporis dolorem aut eligendi perferendis sunt dolores consequuntur sit, blanditiis vitae cum ducimus, quas aspernatur cupiditate obcaecati autem eos enim sed saepe! Dicta, ducimus libero!
+       Nesciunt facilis vel quas, et hic soluta magni officiis dolore expedita, beatae ex assumenda a culpa, consequatur est vero amet tenetur? Dolorum quos, fuga aut ad nam corporis omnis adipisci.
+       Odit possimus similique delectus, totam vitae ab reprehenderit et molestiae ipsam nisi nulla ex beatae saepe vero quas voluptate natus asperiores corrupti quasi. Quasi laborum incidunt omnis quae. Aliquid, sed.
+       Nulla vitae temporibus deleniti quia quo vel, dolorem accusamus? Quam, eos molestias! Vel possimus magnam tenetur sit corrupti vitae saepe porro nesciunt! Modi libero optio est commodi illum quasi fugiat.
+       Nobis, rem labore obcaecati quibusdam quia excepturi, laborum dicta soluta illum molestiae, aut earum assumenda in vero qui optio atque corporis consequuntur modi? Delectus iure, omnis tempora nobis hic laboriosam?
+       Nobis libero excepturi, tempore sunt alias sapiente quo blanditiis quis? Nihil, quae dolore est esse corrupti dolorum expedita asperiores quaerat explicabo voluptatem consectetur nemo tenetur, nostrum quisquam recusandae laboriosam totam!
+       Fuga dignissimos hic recusandae, voluptatum neque magni quos ratione accusamus perferendis asperiores quas, aspernatur blanditiis vitae earum. Culpa eveniet officiis sed. Cum laboriosam magnam illum nostrum consectetur vero officiis quasi.
+       Veritatis ullam ratione sed quas reiciendis debitis perspiciatis, laudantium, sapiente natus doloribus rem voluptates aliquam voluptatem nostrum, iste sequi delectus cupiditate quae aspernatur! Nihil ea eveniet ut hic vel iste!
+       Voluptatum eos eveniet possimus voluptates, nulla a ducimus itaque minus, veniam dolorem impedit necessitatibus ratione fugit et nihil, amet voluptas iusto ad placeat quis quidem! Provident numquam consequatur officia nulla!
+       Atque, soluta nesciunt minima sit sapiente illo culpa, consectetur neque dicta a eos. Commodi dolores dolor illo! Veritatis maiores tempora facilis blanditiis quidem eius aperiam ea neque. A, adipisci aspernatur.
+       Sapiente nemo itaque, sed, suscipit quo ratione ducimus, dolore iusto animi inventore excepturi adipisci saepe laboriosam! At, molestiae? Perspiciatis asperiores consequuntur accusantium quos aspernatur iure atque placeat neque rem laboriosam.
+       Ipsum similique nihil debitis quia voluptates hic, ratione unde repudiandae ad doloremque eos omnis provident, praesentium aliquid nam quos cupiditate autem. Praesentium molestias eveniet dolorem laborum odit dolor enim animi.
+       Temporibus nisi nihil ad aliquid ex. Dolorum accusantium provident, neque, voluptatibus necessitatibus omnis accusamus beatae natus autem delectus dolorem error fuga aspernatur fugit! Quis assumenda adipisci repellat? Minus, obcaecati molestiae.
+       Ducimus sed possimus libero, ipsum numquam, at laborum similique eveniet ad ullam mollitia velit culpa vel. Quibusdam eligendi praesentium nihil possimus, aperiam saepe dolore non, animi a tempore eum deserunt!
+       Corrupti voluptates debitis optio ratione tenetur inventore rerum, quo nobis provident qui sint impedit facilis aperiam animi eligendi. Similique commodi totam, iste aliquid saepe quo dolorum reiciendis mollitia porro! Fuga?
+       Dolores vero culpa odit ullam ea laudantium in accusamus similique harum voluptates, atque eveniet vel commodi explicabo nesciunt voluptatum optio repellendus. Blanditiis est repellat, dolore pariatur sapiente sit vel voluptatem!
+       Atque ex vel sunt commodi laudantium eveniet corporis ratione est at? Dignissimos assumenda quas beatae ex sequi fuga corporis deserunt quis! Nisi, at quod a molestias modi et quam veniam?
+       Reiciendis molestiae recusandae eius assumenda sit cupiditate beatae illum sequi quia consequuntur totam unde nam, facere aut. Distinctio laboriosam soluta molestiae accusamus quisquam quae repudiandae atque doloremque, tenetur aut eius.
+       Necessitatibus, vitae repellat animi voluptatum consequuntur maiores facilis consectetur dicta error, earum quidem recusandae libero sapiente quisquam temporibus enim provident dolorum exercitationem fugit incidunt ratione tempore ea dolor? Debitis, saepe.
+       Excepturi tempore eos veniam similique, vitae repudiandae? Neque, a doloribus! Ut reprehenderit omnis placeat consectetur dolor at corrupti, nesciunt molestias iure dicta asperiores. Obcaecati nemo expedita facere aliquam soluta asperiores?
+       Molestias vero quia aperiam dicta quis voluptatum tempore fugiat at, laudantium iste perferendis, assumenda placeat in minus saepe explicabo distinctio voluptates eum dolores. Fuga vel explicabo repudiandae placeat, consequuntur quisquam?
+       Ab voluptatem ipsam minus, ipsum impedit similique laudantium unde dignissimos tenetur odit, harum aliquid repellendus doloremque! Corrupti minus pariatur deleniti dicta adipisci maiores hic. Ea iure sit maiores suscipit aperiam!
+       Consequatur, consequuntur! Consectetur hic nulla sint maxime deserunt perferendis molestiae culpa inventore neque porro deleniti adipisci quasi aliquam dignissimos, error enim laudantium corrupti facilis modi harum ipsum mollitia dolor? Voluptatibus!
+       Rem quisquam recusandae blanditiis est, nobis velit beatae ex, quis inventore possimus dolorum, nihil aspernatur. Explicabo eius reiciendis quis voluptas sapiente quo odio aperiam? Itaque sit unde architecto dolore! Itaque.
+       Porro possimus numquam voluptas dolor nostrum, dolore soluta reprehenderit! Nemo veniam molestiae cum incidunt sint eaque quisquam beatae quam illum! Nemo quis eius provident laboriosam impedit mollitia, minima molestias nesciunt?
+       Doloremque neque excepturi odit quibusdam expedita dicta dolore, laudantium placeat vel adipisci, harum tenetur consequuntur temporibus, quidem iusto incidunt dolorem veniam fuga perspiciatis ipsum est delectus labore quam officiis. Natus.
+       A mollitia quas necessitatibus officiis tenetur ipsa, voluptatem harum minus. Quod repellat odit fugit a odio laboriosam eaque fugiat tenetur? Eos id deleniti voluptas vel repellendus. Voluptatibus, beatae. Libero, tenetur.
+       Illo itaque facilis explicabo omnis esse laborum cupiditate quaerat aliquam enim, odio nulla deserunt vitae, ut perspiciatis, nostrum neque! Unde id iusto, maiores illo ratione laborum quibusdam architecto animi nam.
+       Iste obcaecati ducimus possimus neque veniam expedita, earum dolore repudiandae aspernatur, et qui rem pariatur totam itaque at harum ipsum minus! Quaerat, quidem quis? Veritatis ipsam dignissimos quasi voluptate dicta?
+       Quae debitis ducimus non aliquid aut, ratione nisi, repellendus deleniti quia voluptates tempore quis libero vero magni rerum! Esse harum sequi at velit repellendus facere illum aliquid architecto veniam voluptas.
+       Culpa, aliquam quidem? Quod saepe, corporis nisi vitae id sint laudantium culpa vel magni esse a hic totam optio iure, provident neque non dolorem accusamus qui! Assumenda voluptates nobis illo?
+       Iusto unde accusantium fuga impedit eaque excepturi, repellat optio eos accusamus quo fugit sapiente porro libero illo ullam architecto voluptates? Quo, harum modi dolore nemo omnis cupiditate explicabo beatae expedita.
+       Aliquam, quasi. Voluptatibus iste at eligendi eius sit vel. Autem, accusamus reprehenderit quisquam, molestias molestiae saepe excepturi quo neque labore magni, officia magnam tenetur? Natus rem nesciunt et quam sint!
+       Commodi tempora praesentium dicta necessitatibus ex repellendus mollitia, cumque maxime adipisci? Natus consequuntur suscipit ipsa dolorum perferendis. Deserunt consequatur placeat fugit vitae nesciunt quidem quae minima odio sint. Officia, quibusdam?
+       Provident, recusandae! Temporibus saepe ad ducimus qui expedita magni aut laborum dolores cupiditate rerum est aspernatur molestias ab sequi mollitia architecto nesciunt praesentium ratione quos facere reprehenderit iste, corporis quia?
+       Labore ea non, commodi alias qui adipisci est voluptatum veniam nostrum voluptates, dignissimos praesentium iusto porro facere modi reiciendis quod quae, necessitatibus obcaecati tenetur facilis quis odio! Aspernatur, earum porro!
+       Praesentium neque impedit tempora veritatis exercitationem cumque, nihil saepe, ex eaque mollitia animi inventore sit nulla. Nesciunt ut repudiandae exercitationem laudantium cumque, et, aperiam libero tempora necessitatibus a voluptas quae.
+       Laboriosam consectetur velit blanditiis ratione quis, voluptatibus omnis deleniti laudantium excepturi esse, magnam fugit nesciunt dolorum nobis officiis vitae. Alias odit, a minima voluptatibus sint iste maiores molestias laudantium quod.
+       Rem assumenda illo suscipit perferendis eveniet totam ratione iure fugit. Non enim soluta est, dignissimos aperiam sequi. Reprehenderit veniam odit nobis vel quibusdam quam quas omnis porro sequi, animi natus?
+       Voluptate qui quas aut eius illo cupiditate porro, explicabo autem rerum suscipit eos sapiente quasi iusto ratione aliquid magni ad molestias! Delectus, fuga? Suscipit culpa velit debitis maxime eveniet ipsa?
+      </p>
+    </div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function () {
+      const carousel = document.querySelector('.carousel');
+      const track = document.querySelector('.carousel-track');
+      const prevButton = document.querySelector('.prev');
+      const nextButton = document.querySelector('.next');
+      const dotsContainer = document.querySelector('.carousel-dots');
+      const modal = document.getElementById('modal');
+      const closeBtn = modal.querySelector('.close');
+      const cards = document.querySelectorAll('.card');
+      let slideIndex = 0;
+      const totalCards = track.children.length;
+      
+      // Responsive cards per page function
+      function getCardsPerPage() {
+        if (window.innerWidth < 600) return 1;
+        else if (window.innerWidth < 900) return 2;
+        else return 3;
+      }
+      
+      // Create dot indicators dynamically
+      function createDots() {
+        dotsContainer.innerHTML = '';
+        const cardsPerPage = getCardsPerPage();
+        const totalPages = Math.ceil(totalCards / cardsPerPage);
+        for (let i = 0; i < totalPages; i++) {
+          const dot = document.createElement('button');
+          if (i === 0) dot.classList.add('active');
+          dot.addEventListener('click', () => {
+            slideIndex = i * cardsPerPage;
+            updateCarousel();
+            updateDots();
+          });
+          dotsContainer.appendChild(dot);
+        }
+      }
+      
+      // Update carousel translation
+      function updateCarousel() {
+        const cardsPerPage = getCardsPerPage();
+        const cardWidth = track.children[0].offsetWidth + 20;
+        const containerWidth = carousel.offsetWidth;
+        let translateX;
+        if (slideIndex + cardsPerPage > totalCards) {
+          const remainingCards = totalCards - slideIndex;
+          const totalCardsWidth = remainingCards * cardWidth;
+          const extraSpace = (containerWidth - totalCardsWidth) / 2;
+          translateX = slideIndex * cardWidth - extraSpace;
+        } else {
+          translateX = slideIndex * cardWidth;
+        }
+        track.style.transform = `translateX(-${translateX}px)`;
+      }
+      
+      // Update active dot indicator
+      function updateDots() {
+        const cardsPerPage = getCardsPerPage();
+        const dots = dotsContainer.querySelectorAll('button');
+        dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === Math.floor(slideIndex / cardsPerPage));
+        });
+      }
+      
+      // Navigation event listeners
+      nextButton.addEventListener('click', () => {
+        const cardsPerPage = getCardsPerPage();
+        slideIndex += cardsPerPage;
+        if (slideIndex >= totalCards) slideIndex = 0;
+        updateCarousel();
+        updateDots();
+      });
+      
+      prevButton.addEventListener('click', () => {
+        const cardsPerPage = getCardsPerPage();
+        slideIndex -= cardsPerPage;
+        if (slideIndex < 0) slideIndex = (Math.ceil(totalCards / cardsPerPage) - 1) * cardsPerPage;
+        updateCarousel();
+        updateDots();
+      });
+      
+      // Autoplay with pause on hover
+      let autoplayInterval = setInterval(() => { nextButton.click(); }, 5000);
+      carousel.addEventListener('mouseenter', () => { clearInterval(autoplayInterval); });
+      carousel.addEventListener('mouseleave', () => { autoplayInterval = setInterval(() => { nextButton.click(); }, 5000); });
+      
+      // Modal functionality
+      cards.forEach(card => {
+        card.addEventListener('click', () => {
+          modal.style.display = 'block';
+        });
+      });
+      
+      closeBtn.addEventListener('click', () => {
+        modal.style.display = 'none';
+      });
+      
+      window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+      
+      // Resize event to update carousel & dots
+      window.addEventListener('resize', () => {
+        const cardsPerPage = getCardsPerPage();
+        const totalPages = Math.ceil(totalCards / cardsPerPage);
+        if (slideIndex >= totalCards) slideIndex = (totalPages - 1) * cardsPerPage;
+        createDots();
+        updateCarousel();
+        updateDots();
+      });
+      
+      // Initial setup
+      createDots();
+      updateCarousel();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Concerts take 3 parts, Banner takes 1 part */
+    gap: 20px;
+    align-items: stretch; /* Ensures both sections are the same height */
+}
+
+/* Ensure concerts take up 75% of the space */
+.contenedor-conciertos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    align-self: stretch; /* Ensures height matches the banner */
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    min-height: 250px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Dark overlay for text readability */
+.card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .textos {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+/* Banner - Fixed on Right Side, Full Height */
+.banner {
+    border-radius: 10px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    height: 100%; /* Stretches full height */
+    padding: 20px;
+}
+
+.banner ul {
+    list-style: none;
+    padding: 0;
+}
+
+.banner ul li {
+    margin: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+    }
+
+    .banner {
+        height: auto; /* Allow stacking */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contenedor-conciertos {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .card {
+        min-height: 220px;
+    }
+
+    .textos h2 {
+        font-size: 18px;
+    }
+
+    .textos h4, .textos h6 {
+        font-size: 14px;
+    }
+}

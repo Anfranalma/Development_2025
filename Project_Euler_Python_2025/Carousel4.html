@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Concert Carousel</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    /* Carousel Container */
+    .carousel {
+      position: relative;
+      width: 90%;
+      max-width: 1200px;
+      margin: 40px auto;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+      background: #fff;
+    }
+    /* Carousel Track */
+    .carousel-track {
+      display: flex;
+      transition: transform 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    /* Card Styling */
+    .card {
+      /* Desktop: 3 cards per row */
+      flex: 0 0 calc(33.333% - 20px);
+      margin: 10px;
+      position: relative;
+      border-radius: 8px;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      min-height: 250px;
+      background-color: #ccc; /* fallback if image fails */
+    }
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+    .card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 70%);
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    .card:hover::before {
+      opacity: 0.8;
+    }
+    .textos {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      z-index: 2;
+      color: #fff;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    .card:hover .textos {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .textos h2 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+    .textos h4,
+    .textos h6 {
+      margin: 5px 0 0;
+      font-size: 1em;
+    }
+    /* Navigation Buttons */
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.6);
+      border: none;
+      color: #fff;
+      font-size: 2.5rem;
+      padding: 10px 15px;
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 3;
+      transition: background 0.3s ease;
+    }
+    .carousel-btn:hover {
+      background: rgba(0,0,0,0.8);
+    }
+    .prev {
+      left: 15px;
+    }
+    .next {
+      right: 15px;
+    }
+    /* Dot Indicators */
+    .carousel-dots {
+      position: absolute;
+      bottom: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 8px;
+      z-index: 3;
+    }
+    .carousel-dots button {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: none;
+      background: rgba(255,255,255,0.7);
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .carousel-dots button.active {
+      background: #fff;
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 900px) {
+      /* Tablet: 2 cards per row */
+      .card {
+        flex: 0 0 calc(50% - 20px);
+      }
+    }
+    @media (max-width: 600px) {
+      /* Mobile: 1 card per row */
+      .card {
+        flex: 0 0 calc(100% - 20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <button class="carousel-btn prev">‹</button>
+    <div class="carousel-track">
+      <!-- Card 1 -->
+      <div class="card" style="background-image: url('./img/bitches.jpg');">
+        <div class="textos">
+          <h2>Guns N' Roses</h2>
+          <h4>February 24th 2024 19h00</h4>
+          <h6>Green Bay Stadium, Green Bay, US</h6>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="card" style="background-image: url('./img/drain.webp');">
+        <div class="textos">
+          <h2>Metallica</h2>
+          <h4>February 26 2024 19h00</h4>
+          <h6>Montreal Olympic Stadium, Montreal, QC, CA</h6>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="card" style="background-image: url('./img/music-rainbow.jpg');">
+        <div class="textos">
+          <h2>Megadeth</h2>
+          <h4>March 24th 2024 19h00</h4>
+          <h6>Germantown Stadium, Maryland, US</h6>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="card" style="background-image: url('./img/music-rainbow.jpg');">
+        <div class="textos">
+          <h2>Iron Maiden</h2>
+          <h4>April 24th 2024 19h00</h4>
+          <h6>Dundas Park, London, UK</h6>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="card" style="background-image: url('./img/japan.jpg');">
+        <div class="textos">
+          <h2>Black Sabbath</h2>
+          <h4>June 24th 2024 19h00</h4>
+          <h6>Estadio Azteca, Mexico DF, Mexico</h6>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="card" style="background-image: url('./img/drugadicts.webp');">
+        <div class="textos">
+          <h2>Placebo</h2>
+          <h4>July 24th 2024 19h00</h4>
+          <h6>Blue Jas, Toronto, ON, CA</h6>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="card" style="background-image: url('./img/piano.jpg');">
+        <div class="textos">
+          <h2>Muse</h2>
+          <h4>February 19 2024 19h00</h4>
+          <h6>Bernard Park, Sydney, AU</h6>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="card" style="background-image: url('./img/télécharger.jpg');">
+        <div class="textos">
+          <h2>Poison</h2>
+          <h4>February 2nd 2024 19h00</h4>
+          <h6>Luna Park, Sacramento, US</h6>
+        </div>
+      </div>
+      <!-- Card 9 -->
+      <div class="card" style="background-image: url('./img/télécharger.jpg');">
+        <div class="textos">
+          <h2>Bon Jovi</h2>
+          <h4>October 2nd 2024 19h00</h4>
+          <h6>Playa El Progreso, Honduras</h6>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('./img/télécharger.jpg');">
+        <div class="textos">
+          <h2>Lacrimosa</h2>
+          <h4>October 2nd 2024 19h00</h4>
+          <h6>Playa El Progreso, Honduras</h6>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-btn next">›</button>
+    <div class="carousel-dots"></div>
+  </div>
+
+  <script>
+    window.addEventListener('load', function () {
+      const carousel = document.querySelector('.carousel');
+      const track = document.querySelector('.carousel-track');
+      const prevButton = document.querySelector('.prev');
+      const nextButton = document.querySelector('.next');
+      const dotsContainer = document.querySelector('.carousel-dots');
+      let slideIndex = 0;
+      const totalCards = track.children.length;
+      
+      // Determine the number of cards per page based on window width
+      function getCardsPerPage() {
+        if (window.innerWidth < 600) {
+          return 1;
+        } else if (window.innerWidth < 900) {
+          return 2;
+        } else {
+          return 3;
+        }
+      }
+      
+      // Dynamically create the dot indicators based on current cardsPerPage
+      function createDots() {
+        dotsContainer.innerHTML = '';
+        const cardsPerPage = getCardsPerPage();
+        const totalPages = Math.ceil(totalCards / cardsPerPage);
+        for (let i = 0; i < totalPages; i++) {
+          const dot = document.createElement('button');
+          if (i === 0) dot.classList.add('active');
+          dot.addEventListener('click', () => {
+            slideIndex = i * cardsPerPage;
+            updateCarousel();
+            updateDots();
+          });
+          dotsContainer.appendChild(dot);
+        }
+      }
+      
+      // Update the carousel's transform to show the correct slide
+      function updateCarousel() {
+        const cardsPerPage = getCardsPerPage();
+        const cardWidth = track.children[0].offsetWidth + 20;
+        const containerWidth = carousel.offsetWidth;
+        let translateX;
+        if (slideIndex + cardsPerPage > totalCards) {
+          const remainingCards = totalCards - slideIndex;
+          const totalCardsWidth = remainingCards * cardWidth;
+          const extraSpace = (containerWidth - totalCardsWidth) / 2;
+          translateX = slideIndex * cardWidth - extraSpace;
+        } else {
+          translateX = slideIndex * cardWidth;
+        }
+        track.style.transform = `translateX(-${translateX}px)`;
+      }
+      
+      // Update the active state of the dots
+      function updateDots() {
+        const cardsPerPage = getCardsPerPage();
+        const dots = dotsContainer.querySelectorAll('button');
+        dots.forEach((dot, index) => {
+          dot.classList.toggle('active', index === Math.floor(slideIndex / cardsPerPage));
+        });
+      }
+      
+      // Next/Prev navigation
+      nextButton.addEventListener('click', () => {
+        const cardsPerPage = getCardsPerPage();
+        slideIndex += cardsPerPage;
+        if (slideIndex >= totalCards) slideIndex = 0;
+        updateCarousel();
+        updateDots();
+      });
+      
+      prevButton.addEventListener('click', () => {
+        const cardsPerPage = getCardsPerPage();
+        slideIndex -= cardsPerPage;
+        if (slideIndex < 0) slideIndex = (Math.ceil(totalCards / cardsPerPage) - 1) * cardsPerPage;
+        updateCarousel();
+        updateDots();
+      });
+      
+      // On window resize, update the carousel and re-create dot indicators
+      window.addEventListener('resize', () => {
+        const cardsPerPage = getCardsPerPage();
+        const totalPages = Math.ceil(totalCards / cardsPerPage);
+        if (slideIndex >= totalCards) {
+          slideIndex = (totalPages - 1) * cardsPerPage;
+        }
+        createDots();
+        updateCarousel();
+        updateDots();
+      });
+      
+      // Autoplay feature (with pause on hover)
+      let autoplayInterval = setInterval(() => {
+        nextButton.click();
+      }, 5000);
+      
+      carousel.addEventListener('mouseenter', () => {
+        clearInterval(autoplayInterval);
+      });
+      carousel.addEventListener('mouseleave', () => {
+        autoplayInterval = setInterval(() => {
+          nextButton.click();
+        }, 5000);
+      });
+      
+      // Initial setup
+      createDots();
+      updateCarousel();
+    });
+  </script>
+</body>
+</html>
