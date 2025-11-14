@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConsultaClientesFiltro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTabla" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCampos" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFiltro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaClientesFiltroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaClientesFiltroResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaClientesFiltroOrden">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sTabla" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCampos" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFiltro" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sOrden" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaClientesFiltroOrdenResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaClientesFiltroOrdenResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertaClientes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDir" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFax" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sRegFisc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertaClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertaClientesResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificaClientes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nCod" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombre" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDir" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFax" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNit" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sRegFisc" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificaClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ModificaClientesResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminaCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="nCodClie" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EliminaClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EliminaClienteResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultaClientesFiltroSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultaClientesFiltro" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaClientesFiltroSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultaClientesFiltroResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaClientesFiltroOrdenSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultaClientesFiltroOrden" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaClientesFiltroOrdenSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultaClientesFiltroOrdenResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertaClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertaClientes" />
+  </wsdl:message>
+  <wsdl:message name="InsertaClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertaClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModificaClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:ModificaClientes" />
+  </wsdl:message>
+  <wsdl:message name="ModificaClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:ModificaClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="EliminaClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:EliminaCliente" />
+  </wsdl:message>
+  <wsdl:message name="EliminaClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:EliminaClienteResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="ConsultaClientesDS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo para Consultar Clientes</wsdl:documentation>
+      <wsdl:input name="ConsultaClientesFiltro" message="tns:ConsultaClientesFiltroSoapIn" />
+      <wsdl:output name="ConsultaClientesFiltro" message="tns:ConsultaClientesFiltroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaClientesDS">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo para Consultar Clientes en forma Ordenada</wsdl:documentation>
+      <wsdl:input name="ConsultaClientesFiltroOrden" message="tns:ConsultaClientesFiltroOrdenSoapIn" />
+      <wsdl:output name="ConsultaClientesFiltroOrden" message="tns:ConsultaClientesFiltroOrdenSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertaClientes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo para Insertar Información de Clientes</wsdl:documentation>
+      <wsdl:input message="tns:InsertaClientesSoapIn" />
+      <wsdl:output message="tns:InsertaClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificaClientes">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo para Modificar Información de un Cliente Especifico</wsdl:documentation>
+      <wsdl:input message="tns:ModificaClientesSoapIn" />
+      <wsdl:output message="tns:ModificaClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminaCliente">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo para Eliminar un Cliente</wsdl:documentation>
+      <wsdl:input message="tns:EliminaClienteSoapIn" />
+      <wsdl:output message="tns:EliminaClienteSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaClientesDS">
+      <soap:operation soapAction="http://tempuri.org/ConsultaClientesFiltro" style="document" />
+      <wsdl:input name="ConsultaClientesFiltro">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ConsultaClientesFiltro">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaClientesDS">
+      <soap:operation soapAction="http://tempuri.org/ConsultaClientesFiltroOrden" style="document" />
+      <wsdl:input name="ConsultaClientesFiltroOrden">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ConsultaClientesFiltroOrden">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertaClientes">
+      <soap:operation soapAction="http://tempuri.org/InsertaClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificaClientes">
+      <soap:operation soapAction="http://tempuri.org/ModificaClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminaCliente">
+      <soap:operation soapAction="http://tempuri.org/EliminaCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaClientesDS">
+      <soap12:operation soapAction="http://tempuri.org/ConsultaClientesFiltro" style="document" />
+      <wsdl:input name="ConsultaClientesFiltro">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ConsultaClientesFiltro">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultaClientesDS">
+      <soap12:operation soapAction="http://tempuri.org/ConsultaClientesFiltroOrden" style="document" />
+      <wsdl:input name="ConsultaClientesFiltroOrden">
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="ConsultaClientesFiltroOrden">
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertaClientes">
+      <soap12:operation soapAction="http://tempuri.org/InsertaClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificaClientes">
+      <soap12:operation soapAction="http://tempuri.org/ModificaClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminaCliente">
+      <soap12:operation soapAction="http://tempuri.org/EliminaCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:1049/wsMttoClientes/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:1049/wsMttoClientes/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

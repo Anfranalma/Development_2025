@@ -1,0 +1,17 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\clsForms.exe.config
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\clsForms.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\clsForms.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\clsForms.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\LibClassCRM.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\LibClassCRM.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\bin\Debug\LibClassCRM.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.EmpleadosCR.rpt
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.Resources.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.NewEmployee.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.MttoEmpleados.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.VisorReport.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\clsForms\obj\Debug\clsForms.vbproj.GenerateResource.Cache

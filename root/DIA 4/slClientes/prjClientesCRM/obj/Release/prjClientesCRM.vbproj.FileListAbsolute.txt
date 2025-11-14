@@ -1,0 +1,10 @@
+C:\Users\Angel\Desktop\DIA 4\slClientes\prjClientesCRM\bin\Release\prjClientesCRM.exe.config
+C:\Users\Angel\Desktop\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.exe
+C:\Users\Angel\Desktop\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.xml
+C:\Users\Angel\Desktop\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.pdb
+C:\Users\Angel\Desktop\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.XmlSerializers.dll
+C:\Users\AAlbanezMartinez\Documents\DIA 4\slClientes\prjClientesCRM\bin\Release\prjClientesCRM.exe.config
+C:\Users\AAlbanezMartinez\Documents\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.exe
+C:\Users\AAlbanezMartinez\Documents\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.xml
+C:\Users\AAlbanezMartinez\Documents\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.pdb
+C:\Users\AAlbanezMartinez\Documents\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.XmlSerializers.dll

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+prjClientesCRM
+</name>
+</assembly>
+<members>
+<member name="M:prjClientesCRM.localhost.Service.#ctor">
+	<remarks/>
+</member><member name="E:prjClientesCRM.localhost.Service.ConsultaClientesDSCompleted">
+	<remarks/>
+</member><member name="E:prjClientesCRM.localhost.Service.ConsultaClientesDS1Completed">
+	<remarks/>
+</member><member name="E:prjClientesCRM.localhost.Service.InsertaClientesCompleted">
+	<remarks/>
+</member><member name="E:prjClientesCRM.localhost.Service.ModificaClientesCompleted">
+	<remarks/>
+</member><member name="E:prjClientesCRM.localhost.Service.EliminaClienteCompleted">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ConsultaClientesDS(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ConsultaClientesDSAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ConsultaClientesDSAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ConsultaClientesDS(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ConsultaClientesDS1Async(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ConsultaClientesDS1Async(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.InsertaClientes(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.InsertaClientesAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.InsertaClientesAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ModificaClientes(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ModificaClientesAsync(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.ModificaClientesAsync(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.EliminaCliente(System.Int32)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.EliminaClienteAsync(System.Int32)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.EliminaClienteAsync(System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:prjClientesCRM.localhost.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.Service">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.ConsultaClientesDSCompletedEventHandler">
+	<remarks/>
+</member><member name="P:prjClientesCRM.localhost.ConsultaClientesDSCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.ConsultaClientesDSCompletedEventArgs">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.ConsultaClientesDS1CompletedEventHandler">
+	<remarks/>
+</member><member name="P:prjClientesCRM.localhost.ConsultaClientesDS1CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.ConsultaClientesDS1CompletedEventArgs">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.InsertaClientesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:prjClientesCRM.localhost.InsertaClientesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.InsertaClientesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.ModificaClientesCompletedEventHandler">
+	<remarks/>
+</member><member name="P:prjClientesCRM.localhost.ModificaClientesCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.ModificaClientesCompletedEventArgs">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.EliminaClienteCompletedEventHandler">
+	<remarks/>
+</member><member name="P:prjClientesCRM.localhost.EliminaClienteCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:prjClientesCRM.localhost.EliminaClienteCompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

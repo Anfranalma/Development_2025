@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E252090A-8C42-43A8-90E4-4F95C61FE118}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>prjClientesCRM.My.MyApplication</StartupObject>
+    <RootNamespace>prjClientesCRM</RootNamespace>
+    <AssemblyName>prjClientesCRM</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>prjClientesCRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>prjClientesCRM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dsArchivo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsArchivo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsArchivo.vb">
+      <DependentUpon>dsArchivo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientes.Designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMsClientes.Designer.vb">
+      <DependentUpon>frmMsClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMsClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMsDetaOrden.Designer.vb">
+      <DependentUpon>frmMsDetaOrden.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMsDetaOrden.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOCompra.Designer.vb">
+      <DependentUpon>frmOCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrdenCompra.Designer.vb">
+      <DependentUpon>frmOrdenCompra.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrdenCompra.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIPrincipal.Designer.vb">
+      <DependentUpon>MDIPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web References\localhost\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmClientes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMsClientes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMsClientes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMsDetaOrden.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMsDetaOrden.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOCompra.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrdenCompra.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmOrdenCompra.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MDIPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dsArchivo.xsc">
+      <DependentUpon>dsArchivo.xsd</DependentUpon>
+    </None>
+    <None Include="dsArchivo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsArchivo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsArchivo.xss">
+      <DependentUpon>dsArchivo.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\Service.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibClasesCRM\LibClasesCRM.vbproj">
+      <Project>{731AB52A-E91A-4EF1-B426-7DA0D224833F}</Project>
+      <Name>LibClasesCRM %28LibClasesCRM\LibClasesCRM%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:1049/wsMttoClientes/Service.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\localhost\</RelPath>
+      <UpdateFromURL>http://localhost:1049/wsMttoClientes/Service.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>prjClientesCRM_localhost_Service</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\localhost\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\localhost\Service.disco" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

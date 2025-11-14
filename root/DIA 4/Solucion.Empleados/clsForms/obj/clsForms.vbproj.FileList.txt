@@ -1,0 +1,17 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\clsForms.Resources.resources
+obj\Debug\clsForms.NewEmployee.resources
+obj\Debug\clsForms.MttoEmpleados.resources
+obj\Debug\clsForms.vbproj.GenerateResource.Cache
+bin\Debug\clsForms.pdb
+bin\Debug\clsForms.xml
+bin\Debug\LibClassCRM.dll
+bin\Debug\LibClassCRM.pdb
+bin\Debug\LibClassCRM.xml
+obj\Debug\clsForms.xml
+obj\Debug\clsForms.pdb
+bin\Debug\clsForms.exe
+obj\Debug\clsForms.exe
+bin\Debug\clsForms.exe.config
+obj\Debug\clsForms.EmpleadosCR.rpt
+obj\Debug\clsForms.VisorReport.resources

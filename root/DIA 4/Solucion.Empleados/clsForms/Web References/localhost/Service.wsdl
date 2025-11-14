@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConsultaEmpleados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="stabla" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="scampos" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sfiltro" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultaEmpleadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultaEmpleadosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertaEmpleados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sPrimNom" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSecNom" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPrimApe" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSecApe" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDir" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTelefono" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCargo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sState" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertaEmpleadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="InsertaEmpleadosResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificaEmpleados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="sCod" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPrimNom" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSecNom" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPrimApe" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sSecApe" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDir" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTelefono" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCel" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCargo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sState" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ModificaEmpleadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ModificaEmpleadosResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultaEmpleadosSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultaEmpleados" />
+  </wsdl:message>
+  <wsdl:message name="ConsultaEmpleadosSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultaEmpleadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertaEmpleadosSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertaEmpleados" />
+  </wsdl:message>
+  <wsdl:message name="InsertaEmpleadosSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertaEmpleadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ModificaEmpleadosSoapIn">
+    <wsdl:part name="parameters" element="tns:ModificaEmpleados" />
+  </wsdl:message>
+  <wsdl:message name="ModificaEmpleadosSoapOut">
+    <wsdl:part name="parameters" element="tns:ModificaEmpleadosResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="ConsultaEmpleados">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de Lectura de informacion</wsdl:documentation>
+      <wsdl:input message="tns:ConsultaEmpleadosSoapIn" />
+      <wsdl:output message="tns:ConsultaEmpleadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertaEmpleados">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de insercion de Nuevos Empleados</wsdl:documentation>
+      <wsdl:input message="tns:InsertaEmpleadosSoapIn" />
+      <wsdl:output message="tns:InsertaEmpleadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificaEmpleados">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Metodo de modiifcacion de Empleados</wsdl:documentation>
+      <wsdl:input message="tns:ModificaEmpleadosSoapIn" />
+      <wsdl:output message="tns:ModificaEmpleadosSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaEmpleados">
+      <soap:operation soapAction="http://tempuri.org/ConsultaEmpleados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertaEmpleados">
+      <soap:operation soapAction="http://tempuri.org/InsertaEmpleados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificaEmpleados">
+      <soap:operation soapAction="http://tempuri.org/ModificaEmpleados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultaEmpleados">
+      <soap12:operation soapAction="http://tempuri.org/ConsultaEmpleados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertaEmpleados">
+      <soap12:operation soapAction="http://tempuri.org/InsertaEmpleados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificaEmpleados">
+      <soap12:operation soapAction="http://tempuri.org/ModificaEmpleados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:1083/WSEmpleados/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:1083/WSEmpleados/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

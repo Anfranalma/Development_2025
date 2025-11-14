@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+clsForms
+</name>
+</assembly>
+<members>
+<member name="M:clsForms.localhost.Service.#ctor">
+	<remarks/>
+</member><member name="E:clsForms.localhost.Service.ConsultaEmpleadosCompleted">
+	<remarks/>
+</member><member name="E:clsForms.localhost.Service.InsertaEmpleadosCompleted">
+	<remarks/>
+</member><member name="E:clsForms.localhost.Service.ModificaEmpleadosCompleted">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.ConsultaEmpleados(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.ConsultaEmpleadosAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.ConsultaEmpleadosAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.InsertaEmpleados(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.InsertaEmpleadosAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.InsertaEmpleadosAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.ModificaEmpleados(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.ModificaEmpleadosAsync(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.ModificaEmpleadosAsync(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:clsForms.localhost.Service.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:clsForms.localhost.Service">
+	<remarks/>
+</member><member name="T:clsForms.localhost.ConsultaEmpleadosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:clsForms.localhost.ConsultaEmpleadosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:clsForms.localhost.ConsultaEmpleadosCompletedEventArgs">
+	<remarks/>
+</member><member name="T:clsForms.localhost.InsertaEmpleadosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:clsForms.localhost.InsertaEmpleadosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:clsForms.localhost.InsertaEmpleadosCompletedEventArgs">
+	<remarks/>
+</member><member name="T:clsForms.localhost.ModificaEmpleadosCompletedEventHandler">
+	<remarks/>
+</member><member name="P:clsForms.localhost.ModificaEmpleadosCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:clsForms.localhost.ModificaEmpleadosCompletedEventArgs">
+	<remarks/>
+</member><member name="P:clsForms.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:clsForms.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:clsForms.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

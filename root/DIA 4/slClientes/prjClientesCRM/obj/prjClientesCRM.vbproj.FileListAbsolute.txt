@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrador\Escritorio\ITCA\DIA 4\slClientes\prjClientesCRM\bin\Release\prjClientesCRM.exe.config
+C:\Documents and Settings\Administrador\Escritorio\ITCA\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.exe
+C:\Documents and Settings\Administrador\Escritorio\ITCA\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.xml
+C:\Documents and Settings\Administrador\Escritorio\ITCA\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.pdb
+C:\Documents and Settings\Administrador\Escritorio\ITCA\DIA 4\slClientes\prjClientesCRM\obj\Release\prjClientesCRM.XmlSerializers.dll

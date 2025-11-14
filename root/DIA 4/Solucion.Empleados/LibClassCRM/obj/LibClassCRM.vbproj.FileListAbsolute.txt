@@ -1,0 +1,9 @@
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\bin\Debug\LibClassCRM.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\bin\Debug\LibClassCRM.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\bin\Debug\LibClassCRM.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\obj\Debug\LibClassCRM.Resources.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\obj\Debug\LibClassCRM.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\obj\Debug\LibClassCRM.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\obj\Debug\LibClassCRM.xml
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2005\Projects\Solucion.Empleados\LibClassCRM\obj\Debug\LibClassCRM.pdb
