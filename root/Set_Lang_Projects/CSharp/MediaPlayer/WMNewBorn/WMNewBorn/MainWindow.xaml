@@ -1,0 +1,17 @@
+﻿<Window x:Class="WMNewBorn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WMNewBorn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="568.235" Width="1137.059">
+    <Grid>
+        <MediaElement x:Name="Me" HorizontalAlignment="Left" LoadedBehavior="Manual" Height="384" Margin="31,42,0,0" VerticalAlignment="Top" Width="1073" Source="C:\Users\aalbanez\Documents\Development_NewBorn\ProjectsNDevelopment\Development\CSharp\MediaPlayer\media\Stillness_of_Heart.wma"/>
+        <Button x:Name="PauseBtn" Content="PAUSE" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="254,460,0,0" Click="PauseBtn_Click" Height="56"/>
+        <Button x:Name="StopBtn" Content="STOP" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="140,460,0,0" Click="StopBtn_Click" Height="56"/>
+        <Button x:Name="StartBtn" Content="START" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="32,460,0,0" Click="StartBtn_Click" Height="56"/>
+        <Slider x:Name="VolumeSlider" HorizontalAlignment="Left" Margin="403,463,0,0" VerticalAlignment="Top" Height="18" Width="207" Maximum="1" Value="0.5" ValueChanged="VolumeSlider_ValueChanged"/>
+    </Grid>
+
+</Window>
