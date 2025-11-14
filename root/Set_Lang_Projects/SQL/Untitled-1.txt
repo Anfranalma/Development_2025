@@ -1,0 +1,44 @@
+1. creaet the storage account.
+    1.2 ressource groupb
+    1.3. storate accoutn name
+    1.4 account kind (on peut definir plains de choses, mais si on fait un backup, on a pas besion de plus que ca (le blob est uniquement utilisait pour faire de gros backup de 3 heurs et plus))
+    1.5 replication 
+
+    Networking:
+        1.1 connectivyt method: private endpoint (le plus possible)
+
+    Data protection:
+        q.q turn on soft delete for blobs (on sera capable de recupper l'information)
+        1.2 il faut calculer le pricing de ca. (il faut utiliser le pricing calculartor de azure por avoir plus de details)
+        1.3 le cool pourrai prend un peu de temps mais c'est moins chere.
+
+        dans l'example Manuel a calcule la taille de tous les base de données, il a donne plus ou moins 20 Gb avec la retention et tout ca, il a decide de le laisser a ce taille-là.
+        Il faut caluler le truc tout le temps. Si on met un disque de 
+
+
+    Access Key:
+        1.1 c'est la clais pour se connecter. 
+        1.2 Shared access signature: partage d'access, je te donne access et utilise la pendent quelque temps, c'Est signature la est juste pour le service X et Y. Start Time et end Time.
+            1.2.1 on genera la clai on vois SAS Token, et on utilise cet clais pour se connecter vers l'instance.
+
+
+    Storage Explorer: 
+        dans l'Azure nous avons le preview dans la plus part des choses qui nous permet d'Avoir un meuilleur idée de quoi il s'agit la chose qu'on va lancer, un espece de Release Candidate.
+
+    dans le serveur, nous aurions le Microsoft Azure Storage Explorer pour nous aider a faire l'exploration de ce que nous avons en besion.
+
+    l'outil de azcopy pour faire la copie de ce truc-là il est un powershell que fait l'execution.
+
+    on prend ce code-là. ./azcopy.exe copy <link de la copy>
+
+    explorr> azure
+    telecharger
+    copy command to clipboard, apartir du explorer. 
+
+    Il faut telecharger azcopy dans le server.
+
+    il faut chercher plus d'information sur le azcopy et les credentiels au moment de la creation. il faut verifier les port pour se connecter. il faut regarder les port, si je suis capable de me conencter a travers le serveur, essayer de voir les connectivite.
+
+    
+
+

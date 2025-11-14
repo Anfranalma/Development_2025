@@ -1,0 +1,155 @@
+DECLARE @DBName nvarchar(50), @Query nvarchar(max), @Version nvarchar(10), @StepName nvarchar(50);
+DECLARE @RiskAnalysisQuery nvarchar(max) = '', @ConfinedSpaceQuery nvarchar(max) = '', @PermitQuery nvarchar(max) = '', @UserQuery nvarchar(max) = '';
+DECLARE @Collate nvarchar(40) = 'COLLATE SQL_Latin1_General_CP1_CI_AS';
+Declare @today VARCHAR(10);
+SET @today = CONVERT(CHAR(10),GetDate(), 126);
+DECLARE @messagebody varchar(max);
+SET @messagebody = 'Voici la liste des usagers de Conformit en provenance de CPPAPNA24 en date du: '+@today;
+SET @messagebody += ' ';
+SET @messagebody += 'Pour toute question adressez-vous à André St-Pierre ou OPS.DBA ';
+DECLARE @attachmentfilename varchar(max); 
+SET @attachmentfilename = 'UsagersConformit_'+@today+'.csv';
+SET NOCOUNT ON;
+ 
+BEGIN TRY
+    SET @StepName = 'Create_Temp_Table';
+    IF NOT EXISTS(SELECT * FROM tempdb.INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME LIKE '#DBVersion%')
+        CREATE TABLE #DBVersion (VersionNumber nvarchar(100));
+    ELSE
+        DELETE FROM #DBVersion;
+ 
+    DECLARE DBCursor CURSOR FOR SELECT [name] FROM sys.databases WHERE name not in ('master', 'tempdb', 'model', 'msdb');
+    OPEN DBCursor;
+    FETCH NEXT FROM DBCursor INTO @DBName;
+ 
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        SET @Query = 'INSERT INTO #DBVersion(VersionNumber) SELECT BDVersion FROM [' + @DBName + '].[dbo].[Versions]';
+        BEGIN TRY
+            EXEC sp_executesql @Query;
+ 
+            DECLARE VersionCursor CURSOR FOR SELECT VersionNumber FROM #DBVersion;
+            OPEN VersionCursor;
+            FETCH NEXT FROM VersionCursor INTO @Version;
+ 
+            IF CAST(@Version AS float) <= 76.0
+            BEGIN
+                --Entités qui ont une analyse de risque ou qui doit en avoir une
+                SET @StepName = @DBName + '; Version = ' + @Version + '; Risk_Analysis';
+
+                IF @RiskAnalysisQuery <> ''
+                    SET @RiskAnalysisQuery += ' UNION ';
+
+                SET @RiskAnalysisQuery += 
+                    'SELECT ''' + @DBName + ''' ' + @Collate + ' AS DBs, E.EntityName ' + @Collate + ' AS Entities, E.RiskAnalysis AS RiskAnalysisRequired, COUNT(*) AS RiskAnalysisCount ' + 
+                    'FROM [' + @DBName + '].[dbo].[Entity] E ' + 
+                        'INNER JOIN [' + @DBName + '].[dbo].[RiskAnalysis] RA ON RA.EntityKey = E.EntityKey ' + 
+                    'GROUP BY E.EntityName, E.RiskAnalysis';
+ 
+                --Entités qui sont des espaces clos
+                SET @StepName = @DBName + '; Version = ' + @Version + '; Confined_Space';
+                IF @ConfinedSpaceQuery <> ''
+                    SET @ConfinedSpaceQuery += ' UNION ';
+ 
+                SET @ConfinedSpaceQuery += 
+                    'SELECT ''' + @DBName + ''' ' + @Collate + ' AS DBs, EntityName ' + @Collate + ' AS ConfinedSpaceEntities ' + 
+                    'FROM [' + @DBName + '].[dbo].[Entity] ' +
+                    'WHERE ConfineSpace <> 0';
+ 
+                --Nombre de permis émis depuis les 5 dernières années (dynamique selon la date où roule le script)
+                SET @StepName = @DBName + '; Version = ' + @Version + '; Permit_Number_Since_Last_5_Years';
+                IF @PermitQuery <> ''
+                    SET @PermitQuery += ' UNION ';
+ 
+                SET @PermitQuery += 
+                    'SELECT ''' + @DBName + ''' ' + @Collate + ' AS DBs, COUNT(PermitKey) AS PermitCountSinceLastFiveYears ' + 
+                    'FROM [' + @DBName + '].[dbo].[Permit] ' + 
+                    'WHERE CONVERT(smalldatetime, (DateBegin + CASE TimeBegin WHEN ''  :  '' THEN '''' ELSE '' '' + TimeBegin END), 120) >= CONVERT(smalldatetime, DATEADD(YEAR, -5, GETDATE()), 120)';
+
+                --Nombre d'usager dans la base de données
+                SET @StepName = @DBName + '; Version = ' + @Version + '; Users_Count';
+                IF @UserQuery <> ''
+                    SET @UserQuery += ' UNION ';
+ 
+                SET @UserQuery +=
+                    'SELECT ''' + @DBName + ''' ' + @Collate + ' AS DBs, UserName ' + @Collate + ' AS UserName ' +
+                    'FROM [' + @DBName + '].[dbo].[Users]';
+            END
+ 
+            CLOSE VersionCursor;
+            DEALLOCATE VersionCursor;
+ 
+ 
+            DELETE FROM #DBVersion;
+        END TRY
+        BEGIN CATCH
+            --On ne fait rien, car ce n'était pas une base de données de ConformIT.
+        END CATCH
+ 
+        FETCH NEXT FROM DBCursor INTO @DBName;
+    END
+ 
+    SET @StepName = 'Exécution des requètes';
+    IF (@RiskAnalysisQuery <> '') AND (@ConfinedSpaceQuery <> '') AND (@PermitQuery <> '') AND (@UserQuery <> '')
+    BEGIN
+    --    SET @RiskAnalysisQuery += ' ORDER BY DBs, RiskAnalysisCount DESC';
+    --    EXEC sp_executesql @RiskAnalysisQuery;
+ 
+    --    SET @ConfinedSpaceQuery += ' ORDER BY DBs, ConfinedSpaceEntities';
+    --    EXEC sp_executesql @ConfinedSpaceQuery;
+ 
+    --    SET @PermitQuery += ' ORDER BY PermitCountSinceLastFiveYears DESC';
+    --    EXEC sp_executesql @PermitQuery;
+ 
+        SET @UserQuery += ' ORDER BY DBs, UserName';
+
+    --EXEC sp_executesql @UserQuery;
+ 
+
+
+ 
+ 
+ 
+    END
+    ELSE
+        PRINT 'Aucune base de données de ConformIT version 7.6.0 ou moins de présente sur le serveur.'
+ 
+    DROP TABLE #DBVersion;
+ 
+    CLOSE DBCursor;
+    DEALLOCATE DBCursor;
+    --PRINT 'user query:'+CHAR(10)+CHAR(13) + @UserQuery
+    EXEC msdb.dbo.sp_send_dbmail
+@profile_name ='PFRDBA',
+--@recipients = 'MTL-MIDRANGE_SUPPORT_TEAM@RESOLUTEFP.COM;johnny.rivellino@resolutefp.com',--;martin.rancourt@resolutefp.com
+@recipients = 'daniel.martin@resolutefp.com;Derrick.Marchand@Resolutefp.com;jarrod.layton@resolutefp.com;michael.hendry@Resolutefp.com;stephane.dussault@resolutefp.com;johnny.rivellino@resolutefp.com;martin.rancourt@resolutefp.com;JuanCarlos.HiguereyDeloy@resolutefp.com',
+              @body = @messagebody,
+              @body_format = 'HTML',
+              @execute_query_database ='master',
+              @query = @UserQuery,
+              @attach_query_result_as_file = 1,
+              @query_result_separator ='    ',
+              @exclude_query_output =1,
+              @query_result_no_padding=1,
+              @query_result_header =1,
+              @query_attachment_filename =@attachmentfilename,
+                   @subject = 'Liste des Usagers de conformit';
+END TRY
+BEGIN CATCH
+    IF CURSOR_STATUS('global', 'VersionCursor') >= -1
+    BEGIN
+        CLOSE VersionCursor;
+        DEALLOCATE VersionCursor;
+    END
+ 
+    IF CURSOR_STATUS('global', 'DBCursor') >= -1
+    BEGIN
+        CLOSE DBCursor;
+        DEALLOCATE DBCursor;
+    END
+
+    DECLARE @ErrorMessage nvarchar(4000), @ErrorSeverity int;
+    SELECT @ErrorMessage = ERROR_MESSAGE(), @ErrorSeverity = ERROR_SEVERITY();  
+    SET @ErrorMessage = ('@StepName = ' + @StepName + ';' + CHAR(10) + @ErrorMessage);
+    RAISERROR(@ErrorMessage, @ErrorSeverity, 1);
+END CATCH

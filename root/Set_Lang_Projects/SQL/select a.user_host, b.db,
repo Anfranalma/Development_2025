@@ -1,0 +1,18 @@
+select a.user_host, b.db, 
+date_format(a.event_time, '%Y-%m-%d') as 'Date', 
+count(a.event_time) 
+from dba.ccaq_audit_logs a 
+    inner join information_schema.processlist b 
+        on a.thread_id=b.id and b.command='Sleep'
+        group by 1,2,3;
+
+union all
+select a.user_host, b.db, 
+date_format(a.event_time, '%Y-%m-%d') as 'Date', 
+count(a.event_time) from dba.ccaq_audit_logs a 
+    inner join dba.events_current_stat_filtered b 
+        on a.thread_id=b.thread_id;
+
+
+logs: user_host,event_time
+processlist: db
