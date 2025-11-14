@@ -1,0 +1,62 @@
+COURSE
+Hands-On Troubleshooting with Terraform
+Learn how to troubleshoot Terraform with this hands-on course.
+
+AWS
+Practitioner
+8.2 hours
+NEW
+
+Introduction to the Microsoft Cloud Adoption Framework for Azure
+COURSE
+Introduction to the Microsoft Cloud Adoption Framework for Azure
+This course explores the 6 phases of the Microsoft Cloud Adoption Framework for Azure and how you can use them for a successful cloud adoption.
+
+Azure
+Apprentice
+4.2 hours
+
+Hands-on Kubernetes Troubleshooting
+COURSE
+Hands-on Kubernetes Troubleshooting
+Kubernetes is great... until it isn't. This course explores what to do when things go wrong in your cluster.
+
+kubernetes
+Professional
+8.9 hours
+
+AI-900: Microsoft Certified Azure AI Fundamentals
+COURSE
+AI-900: Microsoft Certified Azure AI Fundamentals
+This course is designed to help you obtain the knowledge and skills required to sit the AI-900: Microsoft Azure AI Fundamentals exam.
+
+Azure
+Apprentice
+17 hours
+
+Windows Subsystem for Linux Deep Dive
+COURSE
+Windows Subsystem for Linux Deep Dive
+Windows Subsystem for Linux allows you to run a Linux environment inside Windows.
+
+Microsoft
+Apprentice
+3.8 hours
+
+AZ-500 Microsoft Azure Security Technologies
+COURSE
+AZ-500 Microsoft Azure Security Technologies
+This course is designed to prepare you for the AZ-500 Microsoft Azure Security Technologies exam with hands-on defense of Azure solutions.
+
+Azure
+Practitioner
+42.5 hours
+
+Linux Email Services
+COURSE
+Linux Email Services
+This is a standalone course on Linux Email Services but is also a learning path to prepare you for the LPIC-2 202-450 exam.
+
+Linux
+Practitioner
+2.5 hours

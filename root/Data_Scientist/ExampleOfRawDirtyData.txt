@@ -1,0 +1,3031 @@
+COURSE
+Hands-On Troubleshooting with Terraform
+Learn how to troubleshoot Terraform with this hands-on course.
+
+AWS
+Practitioner
+8.2 hours
+NEW
+
+Introduction to the Microsoft Cloud Adoption Framework for Azure
+COURSE
+Introduction to the Microsoft Cloud Adoption Framework for Azure
+This course explores the 6 phases of the Microsoft Cloud Adoption Framework for Azure and how you can use them for a successful cloud adoption.
+
+Azure
+Apprentice
+4.2 hours
+
+Hands-on Kubernetes Troubleshooting
+COURSE
+Hands-on Kubernetes Troubleshooting
+Kubernetes is great... until it isn't. This course explores what to do when things go wrong in your cluster.
+
+kubernetes
+Professional
+8.9 hours
+
+AI-900: Microsoft Certified Azure AI Fundamentals
+COURSE
+AI-900: Microsoft Certified Azure AI Fundamentals
+This course is designed to help you obtain the knowledge and skills required to sit the AI-900: Microsoft Azure AI Fundamentals exam.
+
+Azure
+Apprentice
+17 hours
+
+Windows Subsystem for Linux Deep Dive
+COURSE
+Windows Subsystem for Linux Deep Dive
+Windows Subsystem for Linux allows you to run a Linux environment inside Windows.
+
+Microsoft
+Apprentice
+3.8 hours
+
+AZ-500 Microsoft Azure Security Technologies
+COURSE
+AZ-500 Microsoft Azure Security Technologies
+This course is designed to prepare you for the AZ-500 Microsoft Azure Security Technologies exam with hands-on defense of Azure solutions.
+
+Azure
+Practitioner
+42.5 hours
+
+Linux Email Services
+COURSE
+Linux Email Services
+This is a standalone course on Linux Email Services but is also a learning path to prepare you for the LPIC-2 202-450 exam.
+
+Linux
+Practitioner
+2.5 hours
+
+Introduction to Governance and Compliance on AWS
+COURSE
+Introduction to Governance and Compliance on AWS
+This course is a high-level overview designed to give students exposure to the tools and services AWS offers for compliance and governance.
+
+AWS
+Practitioner
+2.6 hours
+
+ Introduction to Amazon Cognito
+COURSE
+Introduction to Amazon Cognito
+This course provides an introduction to Amazon Cognito.
+
+AWS
+Practitioner
+2.4 hours
+
+Introduction to Event-Driven Architecture
+COURSE
+Introduction to Event-Driven Architecture
+In this course, we focus on the theory behind the event-driven architecture software, paradigms, and associated applications.
+
+GCP
+Practitioner
+1.2 hours
+
+Introduction to Governance and Compliance on Azure
+COURSE
+Introduction to Governance and Compliance on Azure
+Microsoft best practices for compliance and governance in your Azure cloud environment.
+
+Azure
+Practitioner
+2.3 hours
+
+AZ-400: Designing and Implementing Microsoft DevOps Solutions
+COURSE
+AZ-400: Designing and Implementing Microsoft DevOps Solutions
+This course is designed to help you gain the knowledge and skills you need to pass the AZ-400 exam.
+
+Azure
+Professional
+44.3 hours
+
+Linux Network Client Management
+COURSE
+Linux Network Client Management
+This is a standalone course but is also a learning path to prepare you for the LPIC-2 202-450 exam.
+
+Linux
+Novice
+3.2 hours
+
+Introduction to Networking on Azure
+COURSE
+Introduction to Networking on Azure
+This course explores the Azure networking services that enable secure and reliable access to your services and applications hosted on Azure.
+
+Azure
+Apprentice
+2.9 hours
+
+Hands-On with AWS Database Migration Service (DMS)
+COURSE
+Hands-On with AWS Database Migration Service (DMS)
+Do you need to migrate data to AWS? We teach you practical, hands-on skills to get you started with AWS Database Migration Service (DMS).
+
+AWS
+Practitioner
+1.8 hours
+
+Using Terraform to Manage Applications and Infrastructure
+COURSE
+Using Terraform to Manage Applications and Infrastructure
+Use Terraform to easily deploy applications and infrastructure to a variety of providers, like AWS, Azure, and Kubernetes clusters.
+
+kubernetes
+Practitioner
+16.4 hours
+
+DP-900 Azure Data Fundamentals
+COURSE
+DP-900 Azure Data Fundamentals
+Certification Exam Prep for DP-900
+
+Azure
+Apprentice
+15 hours
+UPDATED
+
+AWS Certified SysOps Administrator - Associate
+COURSE
+AWS Certified SysOps Administrator - Associate
+This course is designed to prepare students for the AWS Certified SysOps Administrator - Associate exam (SOA-C02).
+
+AWS
+Practitioner
+57.2 hours
+
+Red Hat Certified Specialist in Performance Tuning (EX442)
+COURSE
+Red Hat Certified Specialist in Performance Tuning (EX442)
+The course is built to help you prepare to take the Red Hat Certified Specialist in Performance Tuning (EX442) exam.
+
+Red Hat
+Professional
+12.3 hours
+
+Red Hat Certified Specialist in Advanced Automation: Ansible Best Practices (EX447)
+COURSE
+Red Hat Certified Specialist in Advanced Automation: Ansible Best Practices (EX447)
+This course prepares you for the Red Hat Certified Engineer Specialist in Advanced Automation: Ansible Best Practices (EX447) exam.
+
+Red Hat
+Professional
+8.2 hours
+
+Hands-On with HAProxy Load Balancer
+COURSE
+Hands-On with HAProxy Load Balancer
+In this short course, develop the hands-on knowledge you need to use HAProxy: one of the fastest and most popular open-source load balancers.
+
+linux
+Practitioner
+7.3 hours
+
+AWS Certified Solutions Architect - Associate (SAA-C02)
+COURSE
+AWS Certified Solutions Architect - Associate (SAA-C02)
+The AWS Certified Solutions Architect – Associate is one of the most demanded certifications. Take your career to the next level with essential skills for implementing cloud initiatives.
+
+AWS
+Practitioner
+43.3 hours
+
+Linux File Sharing
+COURSE
+Linux File Sharing
+This is a stand-alone course but is also a learning path intended to prepare you for the LPIC-2 202-450 exam.
+
+Linux
+Novice
+3.9 hours
+
+Introduction to Azure Virtual Desktop
+COURSE
+Introduction to Azure Virtual Desktop
+This course will provide you with what you need to dip your toes into managing the Azure Virtual Desktop (formerly Windows Virtual Desktop) service on Azure.
+
+Azure
+Apprentice
+3.1 hours
+
+Cloud Computing Foundations
+COURSE
+Cloud Computing Foundations
+This course provides foundational knowledge about the cloud: what it is, how it's used, and why it's important.
+
+AWS
+Apprentice
+0.4 hours
+
+COURSE
+AWS Certified Cloud Practitioner (CLF-C01)
+The AWS Certified Cloud Practitioner is the starting point for non-technical people looking to understand Cloud Computing and contribute to their organization’s cloud initiatives.
+
+AWS
+Apprentice
+9.8 hours
+
+Introduction to Rancher
+COURSE
+Introduction to Rancher
+An introduction to the Rancher tool for managing Kubernetes.
+
+kubernetes
+Practitioner
+0.9 hours
+
+DP-100 Part 3 - Deployment and Working with SDK
+COURSE
+DP-100 Part 3 - Deployment and Working with SDK
+In this course, we focus on how to manage and run experiments in Azure Machine Learning using Azure Machine Learning SDK.
+
+Azure
+Practitioner
+10.4 hours
+
+Introduction to the AWS Marketplace
+COURSE
+Introduction to the AWS Marketplace
+This course breaks down the more complicated aspects of the AWS Marketplace to help make smart decisions when procuring cloud solutions.
+
+AWS
+Novice
+1.2 hours
+
+PL-900 Microsoft Power Platform Fundamentals
+COURSE
+PL-900 Microsoft Power Platform Fundamentals
+Gain an understanding of the tools provided within Microsoft's Power Platform.
+
+Azure
+Apprentice
+7.3 hours
+
+Hands-on with Podman Containers on Linux
+COURSE
+Hands-on with Podman Containers on Linux
+Meet Podman: the default container engine used by Red Hat Enterprise Linux that allows you to develop, run, and manage OCI containers on Linux!
+
+linux
+Practitioner
+12 hours
+
+Introduction to Hybrid Environments on Azure
+COURSE
+Introduction to Hybrid Environments on Azure
+Learn how to utilize Azure services and tools in a hybrid environment.
+
+Azure
+Practitioner
+1.2 hours
+
+Azure Database Administrator Associate
+COURSE
+Azure Database Administrator Associate
+Use this course to prepare for the DP-300: Administering Relational Databases on Microsoft Azure exam.
+
+Azure
+Practitioner
+19.1 hours
+
+Linux Web Services
+COURSE
+Linux Web Services
+Learn about Linux web services on your way to preparing for the LPIC-2 202-450 exam.
+
+Linux
+Practitioner
+4.1 hours
+
+AZ-204: Developing Solutions for Microsoft Azure
+COURSE
+AZ-204: Developing Solutions for Microsoft Azure
+This course is designed to help you obtain the knowledge and skills required to sit the AZ-204 Developing Solutions for Microsoft Azure exam. Through taking this course, you will gain hands-on experience designing, building, testing, and maintaining cloud applications on Microsoft Azure.
+
+Azure
+Professional
+18.3 hours
+
+Linux System Maintenance
+COURSE
+Linux System Maintenance
+Learn to compile and install programs from source, perform backups on the host, and communicate with users in the command line.
+
+Linux
+Practitioner
+4.4 hours
+
+Introduction to Azure
+COURSE
+Introduction to Azure
+This course is a beginner's starting point for learning the fundamental concepts of Microsoft Azure and cloud computing.
+
+Azure
+Novice
+1.9 hours
+
+Introduction to Ansible
+COURSE
+Introduction to Ansible
+Explore how to use Ansible to address the challenge of server automation.
+
+Ansible
+Apprentice
+0.8 hours
+
+Introduction to AWS
+COURSE
+Introduction to AWS
+This short course for beginners will teach you everything that you need to know about the "how" and "why" of AWS.
+
+AWS
+Novice
+5.5 hours
+
+Helm Deep Dive V3
+COURSE
+Helm Deep Dive V3
+Take a deep dive into Helm, a package management solution for Kubernetes.
+
+kubernetes
+Professional
+4.4 hours
+
+The System Administrator’s Guide to Bash Scripting - NEW 2020
+COURSE
+The System Administrator’s Guide to Bash Scripting - NEW 2020
+We will walk you through all of the major components and keywords in shell scripting so you can effectively write your scripts to handle any situation.
+
+linux
+Practitioner
+4.4 hours
+
+Introduction to VMware Cloud on AWS
+COURSE
+Introduction to VMware Cloud on AWS
+This introductory course explores VMware Cloud on AWS, its architecture, and integration with the AWS public cloud.
+
+VMware
+Apprentice
+2 hours
+
+AKS Basics
+COURSE
+AKS Basics
+This course will explore fundamental Kubernetes concepts and then provide an introduction to how Kubernetes is run on Azure
+
+Azure
+Apprentice
+1.4 hours
+
+Introduction to Azure VMware Cloud Solution
+COURSE
+Introduction to Azure VMware Cloud Solution
+This course will teach you the fundamentals of the Azure VMware Solution.
+
+VMware
+Practitioner
+2 hours
+
+Linux Network Configuration
+COURSE
+Linux Network Configuration
+This course is designed to equip you with the knowledge and tools necessary for managing networking on a Linux host.
+
+Linux
+Practitioner
+5.1 hours
+
+Intro to Serverless on Azure
+COURSE
+Intro to Serverless on Azure
+A survey of serverless concepts and how they are applied on the Azure platform
+
+Azure
+Apprentice
+1.5 hours
+
+AZ-303 Part 5 - Preparing for the Microsoft Azure Architect Technologies Exam
+COURSE
+AZ-303 Part 5 - Preparing for the Microsoft Azure Architect Technologies Exam
+If you've completed AZ-303 parts 1 through 4, and are now looking at taking the exam, this course is designed to help you to prepare.
+
+Azure
+Practitioner
+4.3 hours
+
+AWS Certified Database - Specialty (DBS-C01)
+COURSE
+AWS Certified Database - Specialty (DBS-C01)
+Introduction to AWS database technologies on a per-service basis in preparation for the AWS Certified Database Specialty (DBS-C01) exam.
+
+AWS
+Professional
+24.9 hours
+
+Red Hat Certified System Administrator (EX200) Exam Prep
+COURSE
+Red Hat Certified System Administrator (EX200) Exam Prep
+Pass the Red Hat Certified System Administrator (RHCSA) Exam (EX200), by learning core system Linux skills for this entry-level exam.
+
+Red Hat
+Practitioner
+24.8 hours
+
+Preliminary Exam in Red Hat System Administration 1 (PE124) Exam Preparation
+COURSE
+Preliminary Exam in Red Hat System Administration 1 (PE124) Exam Preparation
+This course provides exam preparation for system administrators for the Red Hat Preliminary Exam in System Administration I (PE124).
+
+Red Hat
+Apprentice
+11.4 hours
+
+COURSE
+AZ-303 Part 4 - Implement and Manage Data Platforms in Azure
+Whether you're aiming to take the AZ-303 exam or want to learn more about managing data platforms in Azure, this course can help you.
+
+Azure
+Practitioner
+3.5 hours
+
+Logging and Security for Associate AWS Solutions Architects
+COURSE
+Logging and Security for Associate AWS Solutions Architects
+Learn AWS logging, monitoring, security and prepare to take the AWS Certified Solutions Architect – Associate (SAA-C02) exam.
+
+AWS
+Practitioner
+7.8 hours
+
+Application Services for Associate AWS Solutions Architects
+COURSE
+Application Services for Associate AWS Solutions Architects
+Learn AWS application services, hybrid environments, deployments and preparation for AWS Certified Solutions Architect – Associate exam.
+
+AWS
+Practitioner
+13 hours
+
+Storage, Databases, and Migration for Associate AWS Solutions Architects
+COURSE
+Storage, Databases, and Migration for Associate AWS Solutions Architects
+This course will focus on AWS storage, databases, and migration.
+
+AWS
+Practitioner
+7.8 hours
+
+OpenShift 4 Authentication and User Management
+COURSE
+OpenShift 4 Authentication and User Management
+Learn OpenShift 4 authentication and become familiar with user and group management as well as learn how to fine-tune resource access.
+
+Linux
+Practitioner
+2.5 hours
+
+Introduction to Amazon CodeGuru
+COURSE
+Introduction to Amazon CodeGuru
+Explore CodeGuru and gain hands-on learning on implementing this service in real world scenarios to optimize your code and applications.
+
+AWS
+Apprentice
+1.9 hours
+
+High Availability and Scalability for Associate AWS Solutions Architects
+COURSE
+High Availability and Scalability for Associate AWS Solutions Architects
+This course instructs you on adding high availability and scalability to your AWS environment, preparing you for the AWS SAA-C02 exam.
+
+AWS
+Practitioner
+5.1 hours
+
+AZ-304: Microsoft Azure Architect Design
+COURSE
+AZ-304: Microsoft Azure Architect Design
+Develop your skills as an Azure Solution Architect and prepare yourself for the Microsoft Azure AZ-304 certification exam.
+
+Azure
+Professional
+10.6 hours
+
+AWS Certified Data Analytics - Specialty
+COURSE
+AWS Certified Data Analytics - Specialty
+This course is for software developers and data professionals who want to learn about data analytics on the AWS platform.
+
+AWS
+Professional
+24.9 hours
+
+Networking and Compute for Associate AWS Solutions Architects
+COURSE
+Networking and Compute for Associate AWS Solutions Architects
+This course will focus on networking and compute and help you to prepare for the AWS CSA-A exam.
+
+AWS
+Practitioner
+12.1 hours
+
+Linux System Startup
+COURSE
+Linux System Startup
+This course is designed to cover the Linux boot process as well as starting up system services.
+
+Linux
+Practitioner
+3.3 hours
+
+Introduction to Identity and Access Management (IAM)
+COURSE
+Introduction to Identity and Access Management (IAM)
+This course provides a hands-on practical introduction to the various components of the AWS Identity and Access Management service.
+
+AWS
+Apprentice
+5.5 hours
+
+Designing Resilient Architectures for Associate AWS Solutions Architects
+COURSE
+Designing Resilient Architectures for Associate AWS Solutions Architects
+AWS Fundamentals and Designing Resilient Architectures.
+
+AWS
+Practitioner
+5 hours
+
+Amazon Detective Deep Dive
+COURSE
+Amazon Detective Deep Dive
+In this course we take a deep dive into Amazon Detective, a service that makes it easy to analyze the cause of potential security issues.
+
+AWS
+Practitioner
+0.9 hours
+
+A Practical Guide to Amazon EKS
+COURSE
+A Practical Guide to Amazon EKS
+Expand your Kubernetes skills with EKS !
+
+AWS
+Practitioner
+7.3 hours
+
+Running Linux Servers on Azure
+COURSE
+Running Linux Servers on Azure
+This course provides an understanding of Linux on Azure and practical hands-on experience performing key configuration and management tasks.
+
+Azure
+Apprentice
+3.9 hours
+
+Advanced Storage and Device Administration in Linux
+COURSE
+Advanced Storage and Device Administration in Linux
+This course is designed to cover the storage-related topics and utilities that are necessary when administering a Linux system.
+
+Linux
+Practitioner
+4.5 hours
+
+GUI Programming with Python
+COURSE
+GUI Programming with Python
+Learn how to build GUI applications using Python.
+
+Python
+Practitioner
+2.3 hours
+
+systemd Management for Linux
+COURSE
+systemd Management for Linux
+This course is designed to be a deep dive into the topic of systemd, the most widely used service management scheme in Linux today.
+
+Linux
+Apprentice
+8.8 hours
+
+Azure Cosmos DB Deep Dive
+COURSE
+Azure Cosmos DB Deep Dive
+In this course, we explore Azure Cosmos DB and discuss how to incorporate it into your data solution.
+
+Azure
+Practitioner
+12.3 hours
+
+AZ-303 Part 3 - Implement Solutions for Apps in Azure
+COURSE
+AZ-303 Part 3 - Implement Solutions for Apps in Azure
+Learn the skills required for the AZ-303 Implement Solutions for Apps learning objective.
+
+Azure
+Practitioner
+4.8 hours
+
+Introduction to Linux Management Tools
+COURSE
+Introduction to Linux Management Tools
+A walkthrough for new Linux system administrators on a few basic tools that monitor, configure, optimize, and troubleshoot environments.
+
+Linux
+Novice
+6.7 hours
+
+Deploying to AWS with Terraform and Ansible
+COURSE
+Deploying to AWS with Terraform and Ansible
+Terraform is used to manage infrastructure on AWS cloud platform. Learn the basics of Terraform and Ansible while solidifying your skills in AWS for a winning combination.
+
+AWS
+Practitioner
+9.1 hours
+
+Cost Control on Azure
+COURSE
+Cost Control on Azure
+Learn how to predict and manage costs in Azure.
+
+Azure
+Practitioner
+1.2 hours
+
+Advanced Networking with Kubernetes on AWS
+COURSE
+Advanced Networking with Kubernetes on AWS
+Learn how the network operates inside and outside of a Kubernetes cluster, with AWS examples.
+
+AWS
+Practitioner
+3.4 hours
+
+COURSE
+Intro to Azure for AWS Admins
+This course is a core services introduction and comparison for AWS professionals looking to jump into Azure.
+
+AWS
+Practitioner
+1.4 hours
+
+AZ-104 Microsoft Azure Administrator Certification Prep
+COURSE
+AZ-104 Microsoft Azure Administrator Certification Prep
+Master the skills for the AZ-104: Microsoft Azure Administrator certification exam. Upskill by learning to implement, manage, and monitor identity and governance in Azure cloud.
+
+Azure
+Practitioner
+36 hours
+
+AWS Certification Preparation Guide
+COURSE
+AWS Certification Preparation Guide
+The must-have course for anyone serious about passing the AWS certification exams
+
+AWS
+Apprentice
+3.2 hours
+
+Migrating Servers to Azure
+COURSE
+Migrating Servers to Azure
+Learn how to use the Azure Migrate service to migrate your Linux or Windows machines into Azure.
+
+Azure
+Practitioner
+1.7 hours
+
+Introduction to Azure Security
+COURSE
+Introduction to Azure Security
+Improve Azure security and discover best practices for protecting your Azure cloud workloads. Learn important concepts and security features in Microsoft Azure.
+
+Azure
+Apprentice
+2 hours
+
+Deployment Pipelines in AWS
+COURSE
+Deployment Pipelines in AWS
+Take an in-depth look at configuring deployment pipelines in AWS.
+
+AWS
+Apprentice
+1.9 hours
+
+Amazon S3 Basics
+COURSE
+Amazon S3 Basics
+This introduction course to S3 will provide a real-world and hands-on understanding of S3.
+
+AWS
+Apprentice
+1.7 hours
+
+Red Hat Certified Specialist in OpenShift 4.2 Administration Exam Prep (ex280)
+COURSE
+Red Hat Certified Specialist in OpenShift 4.2 Administration Exam Prep (ex280)
+In these courses, you will learn to create, configure, and manage an OpenShift Container Platform for the EX280 exam.
+
+Red Hat
+Professional
+3.7 hours
+
+Multi-Session with screen
+COURSE
+Multi-Session with screen
+Understand and use the Linux screen command to boost productivity in the command line.
+
+Linux
+Practitioner
+4.2 hours
+
+Introduction to LVM
+COURSE
+Introduction to LVM
+Learn the basics of Logical Volume Management.
+
+Linux
+Apprentice
+1.4 hours
+
+PowerShell Core for Linux Admins
+COURSE
+PowerShell Core for Linux Admins
+Learn how to use PowerShell Core with Linux.
+
+Azure
+Practitioner
+4.8 hours
+
+Managing Linux Servers with Cockpit
+COURSE
+Managing Linux Servers with Cockpit
+Learn Cockpit's features and uses through hands-on labs.
+
+Linux
+Practitioner
+1.9 hours
+
+Linux Domain Name Server (DNS)
+COURSE
+Linux Domain Name Server (DNS)
+Prepare for the 207 section of the LPIC-2 202-450 exam by learning the basics of DNS, creating name server configurations, and more.
+
+Linux
+1.8 hours
+
+Introduction to Python Scripting
+COURSE
+Introduction to Python Scripting
+Python basics for the absolute beginner.
+
+Python
+Novice
+5.4 hours
+
+Introduction to Optimizing Data Storage in AWS
+COURSE
+Introduction to Optimizing Data Storage in AWS
+Learn to optimize your cost savings with cloud storage technologies.
+
+AWS
+Practitioner
+2.8 hours
+
+Introduction to OpenShift
+COURSE
+Introduction to OpenShift
+Get hands-on experience with OpenShift and learn all about it!
+
+Linux
+Apprentice
+1.3 hours
+
+Introduction to Linux Virtualization from the Command Line
+COURSE
+Introduction to Linux Virtualization from the Command Line
+We explore how to install Linux virtualization tools, and use them to manage virtual machines on your hardware.
+
+Linux
+Apprentice
+1.1 hours
+
+How to Properly Secure an S3 Bucket
+COURSE
+How to Properly Secure an S3 Bucket
+Learn to secure your S3 buckets.
+
+AWS
+Apprentice
+2.3 hours
+
+Getting Started with PowerShell
+COURSE
+Getting Started with PowerShell
+Learn PowerShell basics in this crash course.
+
+Microsoft
+Novice
+1.3 hours
+
+DevOps Concepts
+COURSE
+DevOps Concepts
+Learn basic DevOps concepts to transform your software development practices.
+
+AWS
+Apprentice
+1 hour
+
+Creating Your Own Minecraft Server
+COURSE
+Creating Your Own Minecraft Server
+Learn how to make your own Minecraft server to play with your friends. Discover how to deploy and configure a Minecraft Java server on Linux, one step at a time.
+
+Linux
+Apprentice
+1.6 hours
+
+Choosing the Right Database Service on AWS
+COURSE
+Choosing the Right Database Service on AWS
+An introduction to choosing AWS database services.
+
+AWS
+Apprentice
+0.4 hours
+
+Azure IoT Solution Infrastructure (AZ-220: Course 1)
+COURSE
+Azure IoT Solution Infrastructure (AZ-220: Course 1)
+This course will start you on your way to being prepared for the Microsoft Azure IoT Developer exam.
+
+Azure
+Practitioner
+2.8 hours
+
+AWS Identity and Access Management (IAM) Concepts
+COURSE
+AWS Identity and Access Management (IAM) Concepts
+Learn identity and access management concepts, including managing users and resources.
+
+AWS
+Novice
+1.5 hours
+
+Tomcat Administration Deep Dive
+COURSE
+Tomcat Administration Deep Dive
+Dive into what Tomcat is, how it’s configured and installed, day-to-day maintenance tasks, and how to deploy your Java application.
+
+Linux
+Practitioner
+9.3 hours
+
+COURSE
+Scenario Based LXD/LXC Security
+Learn how to use the popular container known as Linux Containers (LXC), as well as LXD (a system container manager and extension of LXC).
+
+Linux
+Practitioner
+6.3 hours
+
+DP-100 Part 2 - Modeling
+COURSE
+DP-100 Part 2 - Modeling
+Learn to run experiments and train models as you prepare for Exam DP-100: Designing and Implementing a Data Science Solution on Azure.
+
+Azure
+Practitioner
+12.8 hours
+
+Concepts for Securing Your Servers
+COURSE
+Concepts for Securing Your Servers
+Learn server security in a non-technical environment.
+
+Linux
+Apprentice
+1.4 hours
+
+AWS Certified DevOps Professional Exam Prep Course
+COURSE
+AWS Certified DevOps Professional Exam Prep Course
+Go through a series of scenarios similar to those encountered on the AWS Certified DevOps Professional - Engineer exam.
+
+AWS
+Professional
+2.2 hours
+
+Introduction to Containers and Docker
+COURSE
+Introduction to Containers and Docker
+Learn to deploy, manage, replace, and remove Docker containers.
+
+docker
+Apprentice
+2.4 hours
+
+YAML Essentials
+COURSE
+YAML Essentials
+Learn the basics of working with YAML.
+
+Linux
+Apprentice
+0.8 hours
+
+Vim - The Improved Editor
+COURSE
+Vim - The Improved Editor
+Gain proficiency with Vim, learning how to use it as a versatile text editor.
+
+Linux
+Apprentice
+0 hours
+
+The System Administrator's Guide to Bash Scripting
+COURSE
+The System Administrator's Guide to Bash Scripting
+Learn to write effective and complex shell scripts.
+
+Linux
+Practitioner
+0.1 hours
+
+The Linux Kernel
+COURSE
+The Linux Kernel
+Prepare for the Linux Kernel topic of the LPIC-2 201-450 exam.
+
+Linux
+Practitioner
+2.3 hours
+
+NGINX Web Server Deep Dive 
+COURSE
+NGINX Web Server Deep Dive
+In this course, you will learn how to install, configure, and customize NGINX for a wide variety of uses. While following along with lessons, you will be educated in how to use the NGINX documentation to assist you as you work with NGINX. By the end of the course, you will have experienced configuring NGINX as a web server, reverse proxy, cache, and load balancer while also having learned how to compile additional modules, tune for performance, and integrate with third-party tools like Let's Encrypt.
+
+Linux
+Practitioner
+6.6 hours
+
+Nginx And The LEMP Stack
+COURSE
+Nginx And The LEMP Stack
+This video course will serve as an introduction to the Nginx Web Server and will help point out key differences between Nginx and Apache. Our exploration will serve both as a setup exercise as well as a detailed configuration guide. We will deploy and setup Nginx Web Server from scratch and then conceptually build a fully functional LEMP server as we learn each new directive and configuration topic.
+
+Linux
+Practitioner
+0 hours
+
+Mastering Systemd
+COURSE
+Mastering Systemd
+Learn to manage services and daemons on Linux with systemd.
+
+Linux
+Practitioner
+4.8 hours
+
+Managing and Troubleshooting File and Directory Permissions in Linux
+COURSE
+Managing and Troubleshooting File and Directory Permissions in Linux
+Learn permission schemes and how to manage and troubleshoot them.
+
+Linux
+Apprentice
+2.3 hours
+
+Managing and Troubleshooting Encrypted Volumes in Linux
+COURSE
+Managing and Troubleshooting Encrypted Volumes in Linux
+This course will get you ready to manage and troubleshoot encrypted volumes in Linux.
+
+Linux
+Practitioner
+1.5 hours
+
+Linux User Management Deep Dive
+COURSE
+Linux User Management Deep Dive
+This course will teach you the ins and outs of dealing with Linux users and groups.
+
+Linux
+Practitioner
+2.6 hours
+
+Linux Operating System Fundamentals
+COURSE
+Linux Operating System Fundamentals
+Get started with an overview of Linux basics.
+
+Linux
+Apprentice
+0.2 hours
+
+Linux Networking and Troubleshooting
+COURSE
+Linux Networking and Troubleshooting
+Let's learn to manage Linux networking implementations.
+
+Linux
+Practitioner
+19.6 hours
+
+Linux Capacity Planning
+COURSE
+Linux Capacity Planning
+Learn the capacity planning topic of the LPIC-2 201-450 exam.
+
+Linux
+Professional
+1.5 hours
+
+Learn Linux by Doing
+COURSE
+Learn Linux by Doing
+Learn core Linux system administration with hands-on labs.
+
+Linux
+Practitioner
+21 hours
+
+Git Quick Start
+COURSE
+Git Quick Start
+Get up and running with Git.
+
+Linux
+Apprentice
+0.5 hours
+
+Essential Container Concepts 
+COURSE
+Essential Container Concepts
+Get started with container basics.
+
+Linux
+Apprentice
+3.5 hours
+
+DevSecOps Essentials
+COURSE
+DevSecOps Essentials
+Learn about the DevSecOps process and how to secure environments. This course also includes best practices.
+
+Linux
+Apprentice
+3 hours
+
+DevOps Essentials
+COURSE
+DevOps Essentials
+Learn what DevOps is and how it impacts IT in the real world.
+
+linux
+Apprentice
+1.9 hours
+
+CompTIA CASP+ Certification, CAS-003 Exam Preparation
+COURSE
+CompTIA CASP+ Certification, CAS-003 Exam Preparation
+This course reviews the five domains in the CASP+ certification learning path and provides a sample certification exam.
+
+CompTIA
+Professional
+4.8 hours
+
+System Tooling with Go
+COURSE
+System Tooling with Go
+Get going with Go!
+
+Linux
+Apprentice
+3.5 hours
+
+COURSE
+Hadoop Quick Start
+Learn how to deploy and configure Hadoop.
+
+Linux
+Apprentice
+2 hours
+
+Beginner’s Guide to Containers and Orchestration
+COURSE
+Beginner’s Guide to Containers and Orchestration
+Get started with the basics of containers and orchestration.
+
+Docker
+Apprentice
+0 hours
+
+Implementing a Full CI/CD Pipeline
+COURSE
+Implementing a Full CI/CD Pipeline
+Let's learn about the CI/CD Pipeline.
+
+kubernetes
+Practitioner
+14.6 hours
+
+Text Editing with Vim (Vi iMproved)
+COURSE
+Text Editing with Vim (Vi iMproved)
+Dive into the Vim text editor, learning the basics as well as advanced operations to maximize your text-editing skills with Vim.
+
+Linux
+Apprentice
+4.8 hours
+
+Subnetting Fundamentals
+COURSE
+Subnetting Fundamentals
+This course provides students with an understanding of subnetting and network masking.
+
+Linux
+Apprentice
+0 hours
+
+Splunk Deep Dive
+COURSE
+Splunk Deep Dive
+This Splunk training course will cover Splunk Enterprise deployment, monitoring, data indexing and analysis. You’ll also learn some Splunk Enterprise security best practices.
+
+Linux
+Practitioner
+1.5 hours
+
+Serverless Concepts
+COURSE
+Serverless Concepts
+This course provides a high-level overview of the concept of Serverless computing.
+
+AWS
+Apprentice
+0 hours
+
+Network Routing Fundamentals
+COURSE
+Network Routing Fundamentals
+This is an introductory course that provides a solid foundation in the basics of network routing.
+
+Linux
+Apprentice
+0.2 hours
+
+Minikube in the Cloud on Ubuntu
+COURSE
+Minikube in the Cloud on Ubuntu
+Explore Minikube and discover its use for local development.
+
+Linux
+Apprentice
+4 hours
+
+MariaDB Cluster Admin Deep Dive
+COURSE
+MariaDB Cluster Admin Deep Dive
+Dive into the architecture and installation of MariaDB Galera Cluster, the Galera Load Balancer, and more.
+
+Linux
+Practitioner
+6.8 hours
+
+LXC/LXD Deep Dive
+COURSE
+LXC/LXD Deep Dive
+Gain a practical knowledge of Linux containers and the Linux container daemon to help you with both day-to-day and harder-to-complete tasks.
+
+Linux
+Practitioner
+7.5 hours
+
+LEMP Stack Deep Dive
+COURSE
+LEMP Stack Deep Dive
+Learn how to install a LEMP stack on both RHEL and Ubuntu Linux, perform basic configuration of NGINX, secure MariaDB, and more.
+
+Linux
+Practitioner
+7.6 hours
+
+Learn Jenkins by Doing
+COURSE
+Learn Jenkins by Doing
+Go through a series of hands-on labs picked to showcase Jenkins and gain experience with it.
+
+Linux
+Practitioner
+14.3 hours
+
+Learn Docker by Doing
+COURSE
+Learn Docker by Doing
+Go through a series of hands-on labs picked to showcase Docker and gain experience with it.
+
+Docker
+Practitioner
+23.8 hours
+
+Kubernetes Security
+COURSE
+Kubernetes Security
+This course is a 'Deep Dive' into Kubernetes Security that guides you through the concepts and best practices of Kubernetes Security.
+
+linux
+Practitioner
+2.4 hours
+
+Kubernetes Essentials
+COURSE
+Kubernetes Essentials
+In this course, we explore Kubernetes from a beginner's standpoint and work with some of the basic functionality of Kubernetes hands-on.
+
+linux
+Apprentice
+3.5 hours
+
+Jenkins Quick Start
+COURSE
+Jenkins Quick Start
+We examine the requirements surrounding a minimalistic installation for using Jenkins by working with a master Jenkins server.
+
+Linux
+Apprentice
+1.5 hours
+
+Jenkins Fundamentals
+COURSE
+Jenkins Fundamentals
+Build a foundation in Jenkins knowledge, including its installation and build agents, on your way to becoming a Certified Jenkins Engineer.
+
+Linux
+Apprentice
+3.3 hours
+
+JBoss EAP Administration
+COURSE
+JBoss EAP Administration
+Dive into what JBoss EAP is, how it’s configured and installed, day-to-day maintenance tasks, and how to deploy your Java application.
+
+Red Hat
+Practitioner
+6.8 hours
+
+Introduction to Python Development
+COURSE
+Introduction to Python Development
+Discover the building blocks of Python, programming design fundamentals, how to use the standard library, and how to create Python projects.
+
+Python
+Apprentice
+8.7 hours
+
+Docker Quick Start 
+COURSE
+Docker Quick Start
+A course designed to give you just what you need to know to get up and running with Docker!
+
+Docker
+Apprentice
+0.7 hours
+
+Docker - Deep Dive
+COURSE
+Docker - Deep Dive
+This course provides a review of Docker for old and new users alike.
+
+Docker
+Practitioner
+9.2 hours
+
+DNS and BIND Deep Dive
+COURSE
+DNS and BIND Deep Dive
+This course works with BIND configurations, such as creating a caching name server, configuring zones and domains, and BIND server security.
+
+Linux
+Practitioner
+1.5 hours
+
+Database Essentials
+COURSE
+Database Essentials
+Learn the basics of what a database is, then we explore the different types of databases from flat file to relational.
+
+Linux
+Apprentice
+5 hours
+
+Big Data Fundamentals
+COURSE
+Big Data Fundamentals
+This course explains big data and why it's necessary and how it works.
+
+Linux
+Apprentice
+0 hours
+
+
+COURSE
+Apache Kafka Deep Dive
+In this course, you will build your own Kafka cluster and provides you with real-world examples. Unleash the power of Apache Kafka.
+
+linux
+Practitioner
+7.1 hours
+
+AIOps Essentials (Autoscaling Kubernetes with Prometheus Metrics)
+COURSE
+AIOps Essentials (Autoscaling Kubernetes with Prometheus Metrics)
+Establish a baseline for AIOps by utilizing Prometheus for managing time-series metrics produced by Node Exporter and cAdvisor.
+
+AWS
+Apprentice
+3 hours
+
+Learn Microsoft Azure by Doing
+COURSE
+Learn Microsoft Azure by Doing
+Go through several hands-on labs curated to provide a thorough learning experience with Azure.
+
+Azure
+Practitioner
+9 hours
+
+Cloud Migration Fundamentals
+COURSE
+Cloud Migration Fundamentals
+Learn about cloud migrations, with topics ranging from the initial planning, to the frameworks themselves, to optimization.
+
+AWS
+Apprentice
+0 hours
+
+Azure Concepts
+COURSE
+Azure Concepts
+Learn about cloud services in general as well as what Azure has to offer in this arena.
+
+Azure
+Apprentice
+0.8 hours
+
+CompTIA's Cloud Essentials
+COURSE
+CompTIA's Cloud Essentials
+Gain the knowledge necessary for passing CompTIA's CLO-001 cloud certification. This is an introduction to cloud computing.
+
+linux
+Apprentice
+6.2 hours
+
+Using Azure for Disaster Recovery Quick Start
+COURSE
+Using Azure for Disaster Recovery Quick Start
+How Microsoft Azure can be used as a viable solution for disaster recover for on-premises environments.
+
+Azure
+Apprentice
+2.8 hours
+
+Running OpenShift on Microsoft Azure
+COURSE
+Running OpenShift on Microsoft Azure
+A how-to on deploying an OpenShift environment on Azure while setting up the essentials.
+
+Azure
+Practitioner
+11.5 hours
+
+Microsoft SQL Server on Linux in Azure
+COURSE
+Microsoft SQL Server on Linux in Azure
+How to install, configure, and manage Microsoft SQL Server on Linux.
+
+Azure
+Practitioner
+2.3 hours
+
+Learn AWS by Doing
+COURSE
+Learn AWS by Doing
+Designed for learning core AWS services and features through a 100% hands-on experience from the best AWS Hands-on Labs we have to offer.
+
+AWS
+Practitioner
+14.3 hours
+
+Implementing Dependency Management in Azure
+COURSE
+Implementing Dependency Management in Azure
+Implement dependency management, manage security, and compliance using Azure Artifacts, Pipelines, and Boards (Azure DevOps Tools).
+
+Azure
+Professional
+1.5 hours
+
+Implementing Continuous Integration in Azure
+COURSE
+Implementing Continuous Integration in Azure
+Implement continuous integration (CI) on the Azure DevOps platform.
+
+Azure
+Professional
+0.2 hours
+
+Implementing Azure DevOps Development Processes
+COURSE
+Implementing Azure DevOps Development Processes
+Implement DevOps processes in Azure DevOps, Git, source control, testing tools, and Azure Pipelines.
+
+Azure
+Professional
+0.6 hours
+
+How to Get a Linux Job
+COURSE
+How to Get a Linux Job
+Use this course to get ready to find your dream job.
+
+Linux
+Practitioner
+1.5 hours
+
+Designing an Azure DevOps Strategy
+COURSE
+Designing an Azure DevOps Strategy
+DevOps professionals streamline delivery by optimizing practices, improving communications and collaboration, and creating automation.
+
+Azure
+Professional
+1.8 hours
+
+CloudFormation Deep Dive
+COURSE
+CloudFormation Deep Dive
+An in-depth look at how AWS CloudFormation works with other AWS serverless technologies.
+
+AWS
+Practitioner
+9.4 hours
+
+BYOL: Build Your Own Linux From Scratch
+COURSE
+BYOL: Build Your Own Linux From Scratch
+Learn to work with the Linux kernel with glibc and the binary tool chain.
+
+Linux
+Practitioner
+0 hours
+
+Building a Full-Stack Serverless Application on AWS
+COURSE
+Building a Full-Stack Serverless Application on AWS
+Building on serverless fundamentals, we'll explore how to leverage various AWS services for a basic full-stack application.
+
+AWS
+Practitioner
+6.1 hours
+
+Build and Deploy Pipelines with Microsoft Azure
+COURSE
+Build and Deploy Pipelines with Microsoft Azure
+This course uses Azure DevOps to demonstrate many different build and deployment scenarios using Pipeline as code. Familiarity with Azure cloud is expected prior to taking this course, as well as basic knowledge about application development. We'll get hands-on with building Web Apps, Azure Functions, and AKS clusters, all using the Azure Pipelines workflow. Topics that we'll cover include: * Deploying an ASP.NET Application and Database to Azure App Services * Deploying to AKS, Azure Functions, and Azure Container Registry * Using Jenkins and Azure DevOps together * Azure DevOps CLI * Pipeline Build Templates * Self-Hosted Build Agents * Deployment Groups * Using Terraform in the Pipeline to create infrastructure in Azure * Build Artifacts
+
+Azure
+Professional
+2.3 hours
+
+Azure Storage Deep Dive
+COURSE
+Azure Storage Deep Dive
+A comprehensive overview of the core Azure Storage services.
+
+Azure
+Practitioner
+7.8 hours
+
+Azure AI-100 Exam Preparation
+COURSE
+Azure AI-100 Exam Preparation
+Covers the subsequent four courses aimed at preparing for the Designing and Implementing an Azure AI Solution (AI-100) certification exam.
+
+Azure
+Professional
+2 hours
+
+Azure AI Workflow and Pipelines
+COURSE
+Azure AI Workflow and Pipelines
+Prepare for Microsoft's Designing and Implementing an Azure AI Solution (AI-100) certification exam.
+
+Azure
+Professional
+1.8 hours
+
+Azure AI Solution Requirements
+COURSE
+Azure AI Solution Requirements
+Prepare for Microsoft's Designing and Implementing an Azure AI Solution (AI-100) certification exam.
+
+Azure
+Professional
+1.3 hours
+
+Azure AI Implementation and Monitoring
+COURSE
+Azure AI Implementation and Monitoring
+Prepare for Microsoft's Designing and Implementing an Azure AI Solution (AI-100) certification exam.
+
+Azure
+Professional
+2 hours
+
+Azure AI Components and Services
+COURSE
+Azure AI Components and Services
+Upskill and pass the Azure AI-100 certification exam: Designing and Implementing an Azure AI Solution. This starts your journey to become an Azure AI engineer.
+
+Azure
+Professional
+3 hours
+
+COURSE
+AWS Security Essentials
+Preparation for prospective students who are in search of a more security-minded architecture within AWS.
+
+AWS
+Practitioner
+6.1 hours
+
+AWS IAM (Identity and Access Management) - Deep Dive
+COURSE
+AWS IAM (Identity and Access Management) - Deep Dive
+An in-depth experience with AWS's Identity and Access Management (IAM) service.
+
+AWS
+Practitioner
+5.3 hours
+
+AWS Developer Tools Deep Dive
+COURSE
+AWS Developer Tools Deep Dive
+A deep dive into each of the AWS Developer Tools, using real-world examples to provide hands-on walkthroughs throughout the course.
+
+AWS
+Practitioner
+8.6 hours
+
+AWS Cloud Services and Infrastructure - Cost Optimization Deep Dive
+COURSE
+AWS Cloud Services and Infrastructure - Cost Optimization Deep Dive
+If you love cost optimization, follow this course with a deep dive into cost-effective and optimization of your AWS accounts.
+
+AWS
+Apprentice
+4.7 hours
+
+AWS Alexa Skill Builder Essentials
+COURSE
+AWS Alexa Skill Builder Essentials
+"We explore the essentials that are necessary to develop an Alexa Skill. "
+
+AWS
+Apprentice
+3.5 hours
+
+Automating AWS with Lambda, Python, and Boto3
+COURSE
+Automating AWS with Lambda, Python, and Boto3
+Explore AWS automation using Lambda and Python.
+
+AWS
+Professional
+6 hours
+
+Amazon DynamoDB Deep Dive
+COURSE
+Amazon DynamoDB Deep Dive
+Amazon DynamoDB is a fully managed NoSQL database solution hosted on the AWS cloud. Learn how to leverage this solution to build scalable, high-performance applications.
+
+AWS
+Practitioner
+9.9 hours
+
+Manage and Deploy Code with AWS Developer Tools (Legacy)
+COURSE
+Manage and Deploy Code with AWS Developer Tools (Legacy)
+Dive into AWS CodeCommit, CodeDeploy, and CodePipeline for the tools needed to successfully store, manage, and deploy your code to a fleet of servers.
+
+AWS
+Practitioner
+0.6 hours
+
+Using Devops Automation for AWS Deployments
+COURSE
+Using Devops Automation for AWS Deployments
+Preparation for the AWS Certified DevOps Engineer Professional exam.
+
+AWS
+Professional
+3.3 hours
+
+Serverless Computing with Azure Functions
+COURSE
+Serverless Computing with Azure Functions
+A deep dive into the use of Azure Functions, including the use of several tools for creating, running, and operating Azure Functions.
+
+Azure
+Practitioner
+7.1 hours
+
+Microsoft Azure Security Essentials
+COURSE
+Microsoft Azure Security Essentials
+Insight into the trustworthy foundation provided by Azure with many configurable security options to best suit your organizational needs
+
+Azure
+Apprentice
+1.6 hours
+
+Implementing Continuous Feedback in Azure
+COURSE
+Implementing Continuous Feedback in Azure
+Recommendations on system-feedback mechanisms within Azure and optimization of feedback mechanisms.
+
+Azure
+Professional
+0 hours
+
+Implementing Continuous Delivery in Azure
+COURSE
+Implementing Continuous Delivery in Azure
+Provides the knowledge and skills to implement continuous delivery in Azure DevOps.
+
+Azure
+Professional
+1.1 hours
+
+Implementing Application Infrastructure in Azure
+COURSE
+Implementing Application Infrastructure in Azure
+A how-to on provisioning Azure infrastructure using common automation tools.
+
+Azure
+Professional
+1.3 hours
+
+Identity and Access Management for Azure
+COURSE
+Identity and Access Management for Azure
+An opportunity for cloud engineer and architects to dive into Azure's Identity and Access Management offering.
+
+Azure
+Practitioner
+1.5 hours
+
+Hands-On with AWS Systems Manager
+COURSE
+Hands-On with AWS Systems Manager
+AWS Systems Manager gives you control of your infrastructure on AWS. Discover new ways to view operational data and automate operational tasks across AWS resources.
+
+AWS
+Practitioner
+6.8 hours
+
+Build and Deploy Azure Templates
+COURSE
+Build and Deploy Azure Templates
+Deep dive into the usage of Azure Resource Manager (ARM) templates to facilitate the rapid and automated deployment of Azure resources.
+
+Azure
+Practitioner
+2.8 hours
+
+AWS Operating Optimal Hybrid Environments
+COURSE
+AWS Operating Optimal Hybrid Environments
+A how-to on designing optimal hybrid environments in AWS.
+
+AWS
+Practitioner
+3.5 hours
+
+Amazon DynamoDB Data Modeling
+COURSE
+Amazon DynamoDB Data Modeling
+This course teaches the skills to effectively build scalable, cost-efficient, high-performance applications using DynamoDB.
+
+AWS
+Professional
+5.3 hours
+
+Amazon Connect Essentials
+COURSE
+Amazon Connect Essentials
+Take your business from absolutely zero Amazon Connect knowledge to justify, design, and implement a solution.
+
+AWS
+Apprentice
+0.2 hours
+
+Amazon Aurora - Cloud SQL DB Essentials
+COURSE
+Amazon Aurora - Cloud SQL DB Essentials
+We cover the essentials of Amazon Aurora and Amazon Aurora Serverless.
+
+AWS
+Practitioner
+2.3 hours
+
+AKS Deep Dive
+COURSE
+AKS Deep Dive
+An in-depth look at how Kubernetes runs in Azure.
+
+Azure
+Professional
+0.3 hours
+
+Using Microsoft Azure Database Services
+COURSE
+Using Microsoft Azure Database Services
+Discover Azure's database services, how to use them, and how to select the right one for your business needs.
+
+Azure
+Practitioner
+4.1 hours
+
+Microsoft SQL Server on Linux Quick Start
+COURSE
+Microsoft SQL Server on Linux Quick Start
+Install Microsoft SQL Server on Linux using a variety of tools.
+
+Microsoft
+Apprentice
+1.5 hours
+
+Linux Filesystems and Devices
+COURSE
+Linux Filesystems and Devices
+Get ready for the LPIC-2 201-450 exam by learning Linux filesystems, their utilities, and how to use them in conjunction with devices.
+
+Linux
+Practitioner
+3.7 hours
+
+COURSE
+KVM Virtualization on Linux
+Gain the skills necessary to design, deploy, and manage virtual workloads using KVM virtualization on Linux.
+
+Linux
+Practitioner
+4.2 hours
+
+CompTIA Security+ Certification Prep 
+COURSE
+CompTIA Security+ Certification Prep
+Get prepared to take and pass the Security+ Certification Exam.
+
+linux
+Practitioner
+11.1 hours
+
+Azure CLI Essentials
+COURSE
+Azure CLI Essentials
+Learn the essentials of using the Azure CLI to manage an Azure environment using the command line.
+
+Azure
+Apprentice
+4 hours
+
+Azure Architecture Design Concepts
+COURSE
+Azure Architecture Design Concepts
+Discover some of the primary concepts that form the basis of Solution Architecture.
+
+Azure
+Professional
+1.4 hours
+
+AWS Concepts
+COURSE
+AWS Concepts
+Provides a simple, conceptual introduction to Amazon's cloud services.
+
+AWS
+Apprentice
+0.3 hours
+
+Secure Container Host Operating System
+COURSE
+Secure Container Host Operating System
+Let's get started learning everything you need to know about securing containers.
+
+Linux
+Professional
+6 hours
+
+Scenario Based Docker Security
+COURSE
+Scenario Based Docker Security
+This is your second step in the path to learning all about securing containers.
+
+Docker
+Professional
+4.3 hours
+
+Kali Linux Deep Dive
+COURSE
+Kali Linux Deep Dive
+Learn the ins and outs of security from a hacker's perspective.
+
+Linux
+Practitioner
+0.1 hours
+
+Introduction to Databases on Linux
+COURSE
+Introduction to Databases on Linux
+Explore different types of Linux databases, how they compare, and examples of each.
+
+linux
+Apprentice
+3.5 hours
+
+EKS Basics
+COURSE
+EKS Basics
+This course will teach the basics of Amazon Elastic Kubernetes Service.
+
+AWS
+Apprentice
+2.1 hours
+
+Red Hat Certified Specialist in Virtualization Preparation Course
+COURSE
+Red Hat Certified Specialist in Virtualization Preparation Course
+Let's prepare for the Red Hat Certified Specialist in Virtualization exam (EX318).
+
+Red Hat
+Practitioner
+4.8 hours
+
+Red Hat Certified Specialist in Server Hardening Prep Course
+COURSE
+Red Hat Certified Specialist in Server Hardening Prep Course
+Learn how to secure your servers in preparation for the EX413 exam.
+
+Red Hat
+Professional
+5.8 hours
+
+Red Hat Certified Specialist in Security (Exam EX415) Prep Course
+COURSE
+Red Hat Certified Specialist in Security (Exam EX415) Prep Course
+Everything you need to succeed in the EX415 exam.
+
+Red Hat
+Professional
+14.6 hours
+
+Provisioning and Managing Devices in Azure IoT (AZ-220: Course 2)
+COURSE
+Provisioning and Managing Devices in Azure IoT (AZ-220: Course 2)
+Learn to provision and manage devices in Azure IoT while preparing for the AZ-220 Microsoft Azure IoT Developer exam.
+
+Azure
+Practitioner
+3.8 hours
+
+Designing High Availability, Fault Tolerance, and DR with AWS Services
+COURSE
+Designing High Availability, Fault Tolerance, and DR with AWS Services
+Learn AWS services and more for high availability and fault tolerance as you prep for the AWS Certified DevOps Engineer – Professional exam.
+
+AWS
+Professional
+1.5 hours
+
+Configuring and Monitoring Governance of AWS Deployments
+COURSE
+Configuring and Monitoring Governance of AWS Deployments
+Prep for the AWS Certified DevOps Engineer – Professional exam by learning about AWS services for monitoring and logging.
+
+AWS
+Professional
+3.5 hours
+
+CompTIA CySA+ Certification
+COURSE
+CompTIA CySA+ Certification
+Learn cybersecurity to protect your environment from bad actors.
+
+CompTIA
+Practitioner
+10.4 hours
+
+CompTIA CASP+ : Risk Management and IT Governance
+COURSE
+CompTIA CASP+ : Risk Management and IT Governance
+Learn all about risk management and IT governance for the CAS-003 exam.
+
+CompTIA
+Professional
+5.8 hours
+
+Certified Information Systems Security Professional (CISSP)
+COURSE
+Certified Information Systems Security Professional (CISSP)
+Becoming a Certified Information Systems Security Professional (CISSP) will take your cyber security career to the next level. Learn to run a successful information security program.
+
+linux
+Apprentice
+8.7 hours
+
+Certified Ethical Hacker (CEH) - Linux Academy's Prep Course
+COURSE
+Certified Ethical Hacker (CEH) - Linux Academy's Prep Course
+Get ready to pass the Certified Ethical Hacker exam.
+
+linux
+Practitioner
+13.7 hours
+
+AZ-303 Part 2 - Implement Management and Security Solutions in Azure
+COURSE
+AZ-303 Part 2 - Implement Management and Security Solutions in Azure
+Learn about services and features for securing and managing your Azure solutions as you prepare for the AZ-303 exam.
+
+Azure
+Professional
+8.2 hours
+
+AZ-303 Part 1 - Implement and Monitor Azure Infrastructure
+COURSE
+AZ-303 Part 1 - Implement and Monitor Azure Infrastructure
+Gain experience implementing and architecting Azure infrastructure and monitoring as you prepare for the AZ-303 exam.
+
+Azure
+Professional
+11.5 hours
+
+Linux Foundation Certified Engineer
+COURSE
+Linux Foundation Certified Engineer
+Everything you need to become a Linux Foundation Certified Engineer is in this course.
+
+Linux
+Professional
+17.6 hours
+
+Introduction to Cloud Migration Using Amazon Web Services
+COURSE
+Introduction to Cloud Migration Using Amazon Web Services
+By using AWS services, we provide a solid foundation in cloud migration and the skills needed for more complex cloud migration efforts.
+
+AWS
+Practitioner
+0.1 hours
+
+Microsoft Azure Exam DP-201 - Designing an Azure Data Solution
+COURSE
+Microsoft Azure Exam DP-201 - Designing an Azure Data Solution
+Prepare for Microsoft's Designing an Azure Data Solution (DP-201) certification exam.
+
+Azure
+Practitioner
+6.7 hours
+
+COURSE
+Microsoft Azure Exam DP-200 - Implementing an Azure Data Solution
+Develop the skills necessary to pass the Microsoft Azure DP-200 certification exam and become comfortable with Azure big data and analytics.
+
+Azure
+Practitioner
+10.9 hours
+
+Microsoft Azure Architect Technologies - Exam AZ-300
+COURSE
+Microsoft Azure Architect Technologies - Exam AZ-300
+Master the skills necessary for passing the Microsoft Azure AZ-300 certification exam.
+
+Azure
+Professional
+8.8 hours
+
+Linux Foundation Certified System Administrator (LFCS)
+COURSE
+Linux Foundation Certified System Administrator (LFCS)
+Prepare for the Linux Foundation Certified System Administrator (LFCS) exam.
+
+Linux
+Practitioner
+9.5 hours
+
+DP-100 Part 1 - Preparation
+COURSE
+DP-100 Part 1 - Preparation
+Prepare for designing and implementing a data science solution on the Azure (DP-100) certification exam with machine learning experiments.
+
+Azure
+Practitioner
+4.6 hours
+
+Docker Certified Associate (DCA)
+COURSE
+Docker Certified Associate (DCA)
+Docker Certifications and skills are highly sought after. Learn to use docker effectively, discover Docker Edition features and pass the Docker Certified Associate (DCA) exam.
+
+Docker
+Practitioner
+15.8 hours
+
+Confluent Certified Developer for Apache Kafka (CCDAK)
+COURSE
+Confluent Certified Developer for Apache Kafka (CCDAK)
+Dive into Apache Kafka and learn the concepts needed to help you upskill and pass the Confluent Certified Developer for Apache Kafka (CCDAK) exam.
+
+linux
+Professional
+16.6 hours
+
+Applying Infrastructure as Code and Serverless Technologies to AWS Deployments
+COURSE
+Applying Infrastructure as Code and Serverless Technologies to AWS Deployments
+Prepare for the AWS Certified DevOps Engineer Professional exam by learning how to use a few AWS services in deployments.
+
+AWS
+Professional
+9.4 hours
+
+Python 3 Scripting for System Administrators
+COURSE
+Python 3 Scripting for System Administrators
+Develop the skills you need to write effective, powerful scripts and create command line tools using Python 3.
+
+Python
+Practitioner
+2.3 hours
+
+Python 2.7 Scripting for System Administrators
+COURSE
+Python 2.7 Scripting for System Administrators
+Develop the skills you need to write effective, powerful scripts and create command line tools using Python 2.7.
+
+Python
+Practitioner
+2.1 hours
+
+CompTIA's Cloud+ Certification (CV0-002)
+COURSE
+CompTIA's Cloud+ Certification (CV0-002)
+A multi-part review of material designed for the intermediate cloud user covering multiple different aspects of cloud computing.
+
+CompTIA
+Practitioner
+1.1 hours
+
+Certified Entry-Level Python Programmer Certification
+COURSE
+Certified Entry-Level Python Programmer Certification
+Build a foundation in the fundamentals of Python on your way to successfully pass the Certified Entry-Level Python Programmer exam.
+
+Python
+Apprentice
+5.7 hours
+
+Certified Associate in Python Programming Certification (PCAP 31-03)
+COURSE
+Certified Associate in Python Programming Certification (PCAP 31-03)
+Discover the Python concepts you need to know to successfully pass the Certified Associate in Python Programming Certification exam (PCAP 31-03).
+
+Python
+Practitioner
+7.7 hours
+
+CentOS Enterprise Linux 8 Essentials
+COURSE
+CentOS Enterprise Linux 8 Essentials
+Learn to install and use CentOS 8.
+
+Linux
+Apprentice
+2.8 hours
+
+Red Hat Certified Specialist in Linux Diagnostics and Troubleshooting Exam Prep (RH342 )
+COURSE
+Red Hat Certified Specialist in Linux Diagnostics and Troubleshooting Exam Prep (RH342 )
+Let's learn to diagnose and troubleshoot issues in Red Hat.
+
+Red Hat
+Professional
+30.1 hours
+
+LPI Linux Essentials Certification
+COURSE
+LPI Linux Essentials Certification
+Your one-stop shop to prepare for the LPI Linux Essentials Exam.
+
+linux
+Apprentice
+18.6 hours
+
+Hands-On Introduction to Azure Files
+COURSE
+Hands-On Introduction to Azure Files
+Learn how Azure Files works, and know when and how to deploy it!
+
+Azure
+Apprentice
+2.1 hours
+
+Cross-Platform PowerShell in Azure
+COURSE
+Cross-Platform PowerShell in Azure
+Expect to become familiar with running PowerShell Core 6 on Linux.
+
+Azure
+Practitioner
+8.5 hours
+
+CompTIA Linux+ XK0-004 Certification Exam
+COURSE
+CompTIA Linux+ XK0-004 Certification Exam
+Prepare for the Linux+ certification exam with this course.
+
+CompTIA
+Practitioner
+22.2 hours
+
+Cloud Security Fundamentals
+COURSE
+Cloud Security Fundamentals
+Get started learning the basics of cloud security.
+
+Azure
+Apprentice
+0 hours
+
+Azure PowerShell Essentials
+COURSE
+Azure PowerShell Essentials
+The essentials of using PowerShell, PowerShell Core, and the Azure PowerShell module to manage your environment using the command-line.
+
+Azure
+Apprentice
+2.1 hours
+
+AWS Essentials
+COURSE
+AWS Essentials
+AWS Essentials is a course for those who are completely new to AWS.
+
+AWS
+Apprentice
+7.6 hours
+
+Managing Microsoft Azure Applications and Infrastructure with Terraform
+COURSE
+Managing Microsoft Azure Applications and Infrastructure with Terraform
+Using Terraform for deploying Azure infrastructure elements and best practices around protection and resiliency of your environment.
+
+Azure
+Apprentice
+2.8 hours
+
+Ansible: Playbooks Deep Dive
+COURSE
+Ansible: Playbooks Deep Dive
+This course discusses what a play and playbook are in Ansible as well as the key features of Ansible Playbooks.
+
+Linux
+Practitioner
+4.1 hours
+
+Ansible Quick Start
+COURSE
+Ansible Quick Start
+Learn all the Ansible essentials in one course.
+
+Linux
+Apprentice
+0.7 hours
+
+Red Hat Certified System Administrator (EX200) - RHCSA Exam Prep
+COURSE
+Red Hat Certified System Administrator (EX200) - RHCSA Exam Prep
+Let's prepare for the Red Hat RHCSA 7 certification exam.
+
+Red Hat
+Practitioner
+7.5 hours
+
+COURSE
+Red Hat Certified Specialist in Ansible Automation (EX407) Preparation Course
+Gain practical insights and real-world best practices for working with Ansible automation.
+
+Red Hat
+Professional
+19.3 hours
+
+Red Hat Certified Engineer (RHEL 8 RHCE)
+COURSE
+Red Hat Certified Engineer (RHEL 8 RHCE)
+Everything you need to become a Red Hat Certified Engineer (RHEL 8 RHCE).
+
+Red Hat
+Professional
+13.5 hours
+
+Red Hat Certified Engineer (RHCE) Prep Course
+COURSE
+Red Hat Certified Engineer (RHCE) Prep Course
+Prepare to become a Red Hat senior systems administrator.
+
+Red Hat
+Professional
+0.1 hours
+
+Preparing for the AZ-400 Azure DevOps Exam
+COURSE
+Preparing for the AZ-400 Azure DevOps Exam
+Preparation for the important topics within the Designing and Implementing Microsoft DevOps Solutions (AZ-400) syllabus.
+
+Azure
+Professional
+2 hours
+
+Microsoft Certified Azure Developer - Exam AZ-203 Prep
+COURSE
+Microsoft Certified Azure Developer - Exam AZ-203 Prep
+Gain the skills necessary to pass the AZ-203: Developing Solutions for Microsoft Azure certification exam and get that certification!
+
+Azure
+Practitioner
+7.6 hours
+
+Microsoft Azure Fundamentals - AZ-900 Exam Prep (LA)
+COURSE
+Microsoft Azure Fundamentals - AZ-900 Exam Prep (LA)
+Gain an introduction to cloud services and how Azure leverages them while preparing for the AZ-900 Microsoft Azure Fundamentals exam.
+
+Azure
+Apprentice
+4 hours
+
+Microsoft Azure Architect Design - Exam AZ-301 (LA)
+COURSE
+Microsoft Azure Architect Design - Exam AZ-301 (LA)
+Develop the skills necessary to pass the AZ-301 certification exam and become a great solution architect.
+
+Azure
+Professional
+14.3 hours
+
+AWS Cloud Practitioner - CLF-C01 (LA)
+COURSE
+AWS Cloud Practitioner - CLF-C01 (LA)
+Preparation for the AWS Certified Cloud Practitioner (CLF-C01) certification exam.
+
+AWS
+Apprentice
+11.1 hours
+
+AWS Certified SysOps Administrator Associate - SOA-C01 (LA)
+COURSE
+AWS Certified SysOps Administrator Associate - SOA-C01 (LA)
+Preparation for the AWS Certified SysOps Administrator - Associate (SOA-C01) certification exam.
+
+AWS
+Practitioner
+20.9 hours
+
+AWS Certified Machine Learning - Specialty (LA)
+COURSE
+AWS Certified Machine Learning - Specialty (LA)
+Preparation for the AWS Certified Machine Learning - Specialty (MLS-C01) certification exam.
+
+AWS
+Professional
+11.5 hours
+
+AWS Advanced Networking Specialty (LA)
+COURSE
+AWS Advanced Networking Specialty (LA)
+Designed to provide hands-on labs, practice exams, and study tools needed for the AWS Advanced Networking Specialty certification exam.
+
+AWS
+Professional
+16.4 hours
+
+AWS Certified Alexa Skill Builder – Specialty 2020
+COURSE
+AWS Certified Alexa Skill Builder – Specialty 2020
+Learn the major components of building, testing, certifying, and publishing Amazon Alexa Skills, and prepare for the AWS Certified Alexa Skill Builder – Specialty exam.
+
+AWS
+Practitioner
+12.8 hours
+
+Introduction to Azure Resource Manager
+COURSE
+Introduction to Azure Resource Manager
+Increase the speed and stability of your provisioning efforts by learning the basics of cloud infrastructure automation with Azure Resource Manager (ARM).
+
+Azure
+Practitioner
+6.5 hours
+
+Getting Started with Azure Machine Learning Studio
+COURSE
+Getting Started with Azure Machine Learning Studio
+Jumpstart your organization’s machine learning initiative using the simple Azure Machine Learning interface!
+
+Azure
+Apprentice
+2.2 hours
+
+Mastering AWS CloudFormation
+COURSE
+Mastering AWS CloudFormation
+Deploy and manage your infrastructure as code with ease, by mastering AWS CloudFormation. Streamline your learning with a deep-dive into theory and many hands-on labs
+
+AWS
+Professional
+8.4 hours
+
+AWS Certified Big Data - Specialty 
+COURSE
+AWS Certified Big Data - Specialty
+Pass the AWS Certified Big Data - Specialty certification and master technical skills in designing and implementing AWS services to derive value from data.
+
+AWS
+Practitioner
+14.1 hours
+
+AWS Certified SysOps Administrator - Associate 2020
+COURSE
+AWS Certified SysOps Administrator - Associate 2020
+Learn what it means to deploy, manage, monitor and operate using AWS and pass the AWS Certified SysOps Administrator - Associate Exam
+
+AWS
+Practitioner
+22.9 hours
+
+Introduction to Ansible v2.7
+COURSE
+Introduction to Ansible v2.7
+Explore how to use Ansible to address the challenge of server automation.
+
+Ansible
+Apprentice
+3.3 hours
+
+AWS Certified Cloud Practitioner 2020
+COURSE
+AWS Certified Cloud Practitioner 2020
+Learn the major components of Amazon Web Services, and prepare for the AWS Certified Cloud Practitioner exam.
+
+AWS
+Apprentice
+13.2 hours
+
+AWS Certified Solutions Architect - Professional 2020
+COURSE
+AWS Certified Solutions Architect - Professional 2020
+The AWS Certified Solutions Architect Professional will elevate your AWS game. Confirm your technical skills and expertise with an industry-recognized certification to grow your career.
+
+AWS
+Professional
+28 hours
+
+AWS Certified Security - Specialty 2020
+COURSE
+AWS Certified Security - Specialty 2020
+The AWS Certified Security – Specialty certification shows you can efficiently use AWS security services to stay secure in AWS. Upskill and advance your cloud career.
+
+AWS
+Practitioner
+21.6 hours
+UPDATED
+
+AWS Certified Developer - Associate (DVA-C01) 
+COURSE
+AWS Certified Developer - Associate (DVA-C01)
+Learn how to develop, deploy, and debug serverless applications using AWS and pass the AWS Certified Developer – Associate exam.
+
+AWS
+Practitioner
+33.7 hours
+
+VMware Cloud on AWS Management Exam (5VO-31.19)
+COURSE
+VMware Cloud on AWS Management Exam (5VO-31.19)
+Learn how to leverage the full power of VMware Cloud on AWS and prepare for the VMware Cloud on AWS Management Exam (5V0-31.19)
+
+VMware
+Practitioner
+1.6 hours
+
+AWS Certified Advanced Networking - Specialty 2020
+COURSE
+AWS Certified Advanced Networking - Specialty 2020
+In this course, we'll give you the knowledge to pass the Advanced Networking Specialty Exam.
+
+AWS
+Practitioner
+29.9 hours
+
+Introduction to Jupyter Notebooks
+COURSE
+Introduction to Jupyter Notebooks
+Leveraging Jupyter Notebooks for data analytics and visualization.
+
+Python
+Practitioner
+3.3 hours
+
+COURSE
+AWS Business Essentials
+Learn the business fundamentals of Amazon Web Services.
+
+AWS
+Apprentice
+2.1 hours
+UPDATED
+
+AZ-900 Microsoft Azure Fundamentals
+COURSE
+AZ-900 Microsoft Azure Fundamentals
+Start your career in cloud computing with the AZ-900 Microsoft Azure Fundamentals certification. Discover and work with the different types of Azure tools and solutions available.
+
+Azure
+Apprentice
+15.9 hours
+
+Go Serverless with a Graph Database
+COURSE
+Go Serverless with a Graph Database
+AWS Neptune is a fully managed database service. Discover ways to leverage graph data by creating a Graph Database stack and a simple web app.
+
+AWS
+Practitioner
+4.1 hours
+
+Introduction to Azure DevOps
+COURSE
+Introduction to Azure DevOps
+Organize the way you plan, create and deliver software with Azure DevOps
+
+Azure
+Apprentice
+5 hours
+
+AZ-500: Microsoft Azure Security Technologies (LA)
+COURSE
+AZ-500: Microsoft Azure Security Technologies (LA)
+Master the skills required for the AZ-500: Microsoft Azure Security Technologies. This is essential to starting your journey to become an Azure Security Engineer Associate.
+
+Azure
+Practitioner
+7.4 hours
+
+Managing AWS with Ansible
+COURSE
+Managing AWS with Ansible
+Managing AWS with Ansible explores how to use the AWS Ansible modules to dynamically provision cloud infrastructure.
+
+AWS
+Practitioner
+3.4 hours
+
+Practical Event-Driven Security with AWS
+COURSE
+Practical Event-Driven Security with AWS
+Secure your application with AWS when moving to the cloud
+
+AWS
+Practitioner
+5.9 hours
+
+AWS Certified Machine Learning - Specialty 2020
+COURSE
+AWS Certified Machine Learning - Specialty 2020
+The AWS Certified Machine Learning Specialty certification validates your ML skills in the cloud. Apply AWS machine learning to your business to unlock new insights and value.
+
+AWS
+Professional
+24.5 hours
+
+AZ-103 Microsoft Azure Administrator 2019 (Preview)
+COURSE
+AZ-103 Microsoft Azure Administrator 2019 (Preview)
+Note: This course has been decommissioned.
+
+Azure
+Apprentice
+5.4 hours
+
+AWS GovCloud: Beyond the Buzzwords
+COURSE
+AWS GovCloud: Beyond the Buzzwords
+Move beyond the buzzwords – learn the Who, What, Why, When and Where of GovCloud and how it can solve your organization's operational objectives
+
+AWS
+Apprentice
+2.5 hours
+
+Mastering the AWS Well-Architected Framework
+COURSE
+Mastering the AWS Well-Architected Framework
+With AWS Well-Architected Framework you’ll learn the principles of building secure, efficient, and reliable infrastructure for your cloud-enabled applications.
+
+AWS
+Apprentice
+5.1 hours
+
+Ansible: Setup, Configure, and Ad Hoc Commands Deep Dive
+COURSE
+Ansible: Setup, Configure, and Ad Hoc Commands Deep Dive
+This course is the first in a series of courses designed to provide a thorough introduction to key Ansible features.
+
+Linux
+Practitioner
+2.5 hours
+
+AWS Certified DevOps Engineer - Professional 2020
+COURSE
+AWS Certified DevOps Engineer - Professional 2020
+The AWS Certified DevOps Engineer – Professional certification validates expertise in developing and maintaining AWS applications. Master DevOps skills for new cloud career opportunities.
+
+AWS
+Professional
+16.1 hours
+
+Learn Ansible by Doing
+COURSE
+Learn Ansible by Doing
+Go through a series of hands-on labs picked to showcase Ansible and gain experience with it.
+
+Linux
+Practitioner
+13.5 hours
+
+AWS Certified Solutions Architect Associate SAA-C02
+COURSE
+AWS Certified Solutions Architect Associate SAA-C02
+Learn Amazon Web Services and prepare for the AWS Certified Solutions Architect exam – one of the industry's most in-demand certifications!
+
+AWS
+Practitioner
+35.7 hours
+
+Introduction to Amazon RDS
+COURSE
+Introduction to Amazon RDS
+Amazon RDS allows you to take your cloud development to the next level. With AWS RDS it's easy to set up and cost effective to scale your Relational Database in the cloud.
+
+AWS
+Apprentice
+3.1 hours
+
+Introduction to AWS AppSync
+COURSE
+Introduction to AWS AppSync
+Learn to make the best use of managed services to build a GraphQL API with AWS AppSync.
+
+AWS
+Apprentice
+2.3 hours
+
+Introduction to Cloud Computing
+COURSE
+Introduction to Cloud Computing
+What is Cloud Computing? Explore the basics and learn the benefits with our introduction to cloud computing.
+
+AWS
+Novice
+0.4 hours
+
+Introduction to AWS CloudFormation
+COURSE
+Introduction to AWS CloudFormation
+Learn how to use CloudFormation, the AWS approach to automating the management of complex infrastructure and environments in a safe, reliable and repeatable manner.
+
+AWS
+Apprentice
+2 hours
+
+Introduction to Azure
+COURSE
+Introduction to Azure
+A solid introduction to what Microsoft Azure has to offer
+
+Azure
+Novice
+2.3 hours
+
+S3 Masterclass
+COURSE
+S3 Masterclass
+Deep dive into S3 and learn all you need to know in this comprehensive Masterclass
+
+AWS
+Apprentice
+12.1 hours
+
+Introduction to AWS (Legacy)
+COURSE
+Introduction to AWS (Legacy)
+Want to get started with Amazon Web Services? Learn the fundamentals of cloud with our AWS tutorial for beginners.
+
+AWS
+Novice
+1.5 hours
+
+Security
+LEARNING PATH
+Security
+After completing the Linux Security path you’ll be able to secure data and applications on Linux systems as well as protect them from attack and intrusion.
+
+Linux & Cloud Adjacent
+206 hours
+
+Red Hat Engineering
+LEARNING PATH
+Red Hat Engineering
+After completing the Red Hat Engineering path you’ll have the core hands-on knowledge and skills needed to be a Red Hat engineer.
+
+Linux & Cloud Adjacent
+234 hours
+
+Red Hat Architecture
+LEARNING PATH
+Red Hat Architecture
+After completing the Red Hat Architect path you’ll have the core hands-on knowledge and skills needed to be a Red Hat architect.
+
+Linux & Cloud Adjacent
+199 hours
+
+LEARNING PATH
+DevOps
+After completing the Cloud Adjacent DevOps path you’ll have the core hands-on knowledge and skills to deliver higher quality automated deployments to multiple platforms more frequently and securely.
+
+Linux & Cloud Adjacent
+188 hours
+
+Containers
+LEARNING PATH
+Containers
+After completing the Containers path you’ll have the core hands-on knowledge and skills to build, secure and manage containers on multiple platforms.
+
+Linux & Cloud Adjacent
+149 hours
+
+Azure Security
+LEARNING PATH
+Azure Security
+After completing the Azure Security path you’ll be able to secure data and applications on Azure as well as protect your cloud systems from attack and intrusion.
+
+Azure
+166 hours
+
+Azure DevOps
+LEARNING PATH
+Azure DevOps
+After completing the Azure DevOps path you’ll have the core hands-on knowledge and skills to deliver higher quality automated deployments to Azure more frequently and securely.
+
+Azure
+152 hours
+
+Azure Development
+LEARNING PATH
+Azure Development
+After completing the Azure Development path you’ll have the core hands-on knowledge and skills needed to to build, test, deploy and manage applications on Azure.
+
+Azure
+70 hours
+
+Azure Data
+LEARNING PATH
+Azure Data
+After completing the Azure Data path you’ll have the core skills that you’ll need to ingest, store and analyse data on Azure.
+
+Azure
+95 hours
+
+Azure Architecture
+LEARNING PATH
+Azure Architecture
+After completing the Azure Architecture path you'll have the core hands-on knowledge and skills needed to be an Azure architect.
+
+Azure
+109 hours
+
+AWS Security
+LEARNING PATH
+AWS Security
+Keep it secret. Keep it safe. Master the dark arts of cloud security.
+
+AWS
+191 hours
+
+AWS Machine Learning
+LEARNING PATH
+AWS Machine Learning
+After completing the AWS Machine Learning path you’ll have the core skills that you’ll need to design and deploy machine learning solutions on AWS.
+
+AWS
+146 hours
+
+AWS DevOps
+LEARNING PATH
+AWS DevOps
+DevOps is a pathway to abilities many consider to be... exceptional.
+
+AWS
+191 hours
+
+AWS Developer
+LEARNING PATH
+AWS Developer
+Got code? We'll demystify getting it to the cloud.
+
+AWS
+143 hours
+
+AWS Data
+LEARNING PATH
+AWS Data
+Study up and learn Machine Learning and Data management to master the rising tide of data.
+
+AWS
+173 hours
+
+AWS Architect
+LEARNING PATH
+AWS Architect
+Become the master of your domain and understand how to build all the things.
+
+AWS
+248 hours
+
+CompTIA PenTest+ Certification
+COURSE
+CompTIA PenTest+ Certification
+Everything you need to become a skilled pentester.
+
+CompTIA
+Practitioner
+7.8 hours
+
+COURSE
+Hands-On with AWS Database Migration Service (DMS)
+Do you need to migrate data to AWS? We teach you practical, hands-on skills to get you started with AWS Database Migration Service (DMS).
+
+AWS
+Practitioner
+1.8 hours
+
+AWS Certified Database - Specialty (DBS-C01)
+COURSE
+AWS Certified Database - Specialty (DBS-C01)
+Introduction to AWS database technologies on a per-service basis in preparation for the AWS Certified Database Specialty (DBS-C01) exam.
+
+AWS
+Professional
+24.9 hours
+
+Azure Cosmos DB Deep Dive
+COURSE
+Azure Cosmos DB Deep Dive
+In this course, we explore Azure Cosmos DB and discuss how to incorporate it into your data solution.
+
+Azure
+Practitioner
+12.3 hours
+
+Choosing the Right Database Service on AWS
+COURSE
+Choosing the Right Database Service on AWS
+An introduction to choosing AWS database services.
+
+AWS
+Apprentice
+0.4 hours
+
+MariaDB Cluster Admin Deep Dive
+COURSE
+MariaDB Cluster Admin Deep Dive
+Dive into the architecture and installation of MariaDB Galera Cluster, the Galera Load Balancer, and more.
+
+Linux
+Practitioner
+6.8 hours
+
+Database Essentials
+COURSE
+Database Essentials
+Learn the basics of what a database is, then we explore the different types of databases from flat file to relational.
+
+Linux
+Apprentice
+5 hours
+
+Microsoft SQL Server on Linux in Azure
+COURSE
+Microsoft SQL Server on Linux in Azure
+How to install, configure, and manage Microsoft SQL Server on Linux.
+
+Azure
+Practitioner
+2.3 hours
+
+Amazon DynamoDB Deep Dive
+COURSE
+Amazon DynamoDB Deep Dive
+Amazon DynamoDB is a fully managed NoSQL database solution hosted on the AWS cloud. Learn how to leverage this solution to build scalable, high-performance applications.
+
+AWS
+Practitioner
+9.9 hours
+
+Amazon DynamoDB Data Modeling
+COURSE
+Amazon DynamoDB Data Modeling
+This course teaches the skills to effectively build scalable, cost-efficient, high-performance applications using DynamoDB.
+
+AWS
+Professional
+5.3 hours
+
+Using Microsoft Azure Database Services
+COURSE
+Using Microsoft Azure Database Services
+Discover Azure's database services, how to use them, and how to select the right one for your business needs.
+
+Azure
+Practitioner
+4.1 hours
+
+Microsoft SQL Server on Linux Quick Start
+COURSE
+Microsoft SQL Server on Linux Quick Start
+Install Microsoft SQL Server on Linux using a variety of tools.
+
+Microsoft
+Apprentice
+1.5 hours
+
+Go Serverless with a Graph Database
+COURSE
+Go Serverless with a Graph Database
+AWS Neptune is a fully managed database service. Discover ways to leverage graph data by creating a Graph Database stack and a simple web app.
+
+AWS
+Practitioner
+4.1 hours
+
+Introduction to Amazon RDS
+COURSE
+Introduction to Amazon RDS
+Amazon RDS allows you to take your cloud development to the next level. With AWS RDS it's easy to set up and cost effective to scale your Relational Database in the cloud.
+
+AWS
+Apprentice
+3.1 hours
+
+
+COURSE
+DP-900 Azure Data Fundamentals
+Certification Exam Prep for DP-900
+
+Azure
+Apprentice
+15 hours
+
+DP-100 Part 3 - Deployment and Working with SDK
+COURSE
+DP-100 Part 3 - Deployment and Working with SDK
+In this course, we focus on how to manage and run experiments in Azure Machine Learning using Azure Machine Learning SDK.
+
+Azure
+Practitioner
+10.4 hours
+
+PL-900 Microsoft Power Platform Fundamentals
+COURSE
+PL-900 Microsoft Power Platform Fundamentals
+Gain an understanding of the tools provided within Microsoft's Power Platform.
+
+Azure
+Apprentice
+7.3 hours
+
+AWS Certified Data Analytics - Specialty
+COURSE
+AWS Certified Data Analytics - Specialty
+This course is for software developers and data professionals who want to learn about data analytics on the AWS platform.
+
+AWS
+Professional
+24.9 hours
+
+DP-100 Part 2 - Modeling
+COURSE
+DP-100 Part 2 - Modeling
+Learn to run experiments and train models as you prepare for Exam DP-100: Designing and Implementing a Data Science Solution on Azure.
+
+Azure
+Practitioner
+12.8 hours
+
+Hadoop Quick Start
+COURSE
+Hadoop Quick Start
+Learn how to deploy and configure Hadoop.
+
+Linux
+Apprentice
+2 hours
+
+Microsoft Azure Exam DP-201 - Designing an Azure Data Solution
+COURSE
+Microsoft Azure Exam DP-201 - Designing an Azure Data Solution
+Prepare for Microsoft's Designing an Azure Data Solution (DP-201) certification exam.
+
+Azure
+Practitioner
+6.7 hours
+
+Microsoft Azure Exam DP-200 - Implementing an Azure Data Solution
+COURSE
+Microsoft Azure Exam DP-200 - Implementing an Azure Data Solution
+Develop the skills necessary to pass the Microsoft Azure DP-200 certification exam and become comfortable with Azure big data and analytics.
+
+Azure
+Practitioner
+10.9 hours
+
+DP-100 Part 1 - Preparation
+COURSE
+DP-100 Part 1 - Preparation
+Prepare for designing and implementing a data science solution on the Azure (DP-100) certification exam with machine learning experiments.
+
+Azure
+Practitioner
+4.6 hours
+
+AWS Certified Big Data - Specialty 
+COURSE
+AWS Certified Big Data - Specialty
+Pass the AWS Certified Big Data - Specialty certification and master technical skills in designing and implementing AWS services to derive value from data.
+
+AWS
+Practitioner
+14.1 hours
+
+Introduction to Jupyter Notebooks
+COURSE
+Introduction to Jupyter Notebooks
+Leveraging Jupyter Notebooks for data analytics and visualization.
+
+Python
+Practitioner
+3.3 hours
+
+Azure Data
+LEARNING PATH
+Azure Data
+After completing the Azure Data path you’ll have the core skills that you’ll need to ingest, store and analyse data on Azure.
+
+Azure
+95 hours
+
+AWS Data
+LEARNING PATH
+AWS Data
+Study up and learn Machine Learning and Data management to master the rising tide of data.
+
+AWS
+173 hours
