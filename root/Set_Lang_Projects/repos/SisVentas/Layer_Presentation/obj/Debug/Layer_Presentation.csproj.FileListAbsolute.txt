@@ -1,0 +1,13 @@
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\bin\Debug\Layer_Presentation.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\bin\Debug\Layer_Presentation.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\bin\Debug\Layer_Business.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\bin\Debug\Data_Layer.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\bin\Debug\Layer_Business.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\bin\Debug\Data_Layer.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.csprojAssemblyReference.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.FrmCategoria.resources
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.csproj.GenerateResource.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.csproj.CopyComplete
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Presentation\obj\Debug\Layer_Presentation.pdb

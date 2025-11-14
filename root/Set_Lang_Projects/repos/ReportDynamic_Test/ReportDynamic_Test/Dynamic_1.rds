@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Dynamic_1">
+  <ConnectionProperties>
+    <Extension>MSCRMFETCH</Extension>
+    <ConnectString>https://ccaq.crm3.dynamics.com/main.aspx;solutionomd</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>388e2539-3554-41bc-844b-86ca1df4f566</DataSourceID>
+</RptDataSource>

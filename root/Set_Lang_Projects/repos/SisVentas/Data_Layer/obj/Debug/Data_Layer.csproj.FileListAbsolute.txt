@@ -1,0 +1,6 @@
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Data_Layer\bin\Debug\Data_Layer.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Data_Layer\bin\Debug\Data_Layer.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Data_Layer\obj\Debug\Data_Layer.csprojAssemblyReference.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Data_Layer\obj\Debug\Data_Layer.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Data_Layer\obj\Debug\Data_Layer.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Data_Layer\obj\Debug\Data_Layer.pdb

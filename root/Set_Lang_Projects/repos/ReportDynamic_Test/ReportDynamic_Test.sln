@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportDynamic_Test", "ReportDynamic_Test\ReportDynamic_Test.rptproj", "{BB47A3BE-08E4-4383-A83D-909354D2648B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.Debug|Default.ActiveCfg = Debug
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.Debug|Default.Build.0 = Debug
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.Debug|Default.Deploy.0 = Debug
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.DebugLocal|Default.Build.0 = DebugLocal
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.Release|Default.ActiveCfg = Release
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.Release|Default.Build.0 = Release
+		{BB47A3BE-08E4-4383-A83D-909354D2648B}.Release|Default.Deploy.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AC26A5F-8995-4A59-A657-8001827F171F}
+	EndGlobalSection
+EndGlobal

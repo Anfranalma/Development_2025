@@ -1,0 +1,9 @@
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\bin\Debug\Layer_Business.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\bin\Debug\Layer_Business.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\bin\Debug\Data_Layer.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\bin\Debug\Data_Layer.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\obj\Debug\Layer_Business.csprojAssemblyReference.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\obj\Debug\Layer_Business.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\obj\Debug\Layer_Business.csproj.CopyComplete
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\obj\Debug\Layer_Business.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\Layer_Business\obj\Debug\Layer_Business.pdb

@@ -1,0 +1,16 @@
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.csprojAssemblyReference.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\SisSells.exe.config
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\SisSells.exe
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\SisSells.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\Layer_Presentation.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\Layer_Business.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\Data_Layer.dll
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\Layer_Presentation.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\Layer_Business.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\bin\Debug\Data_Layer.pdb
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.Form1.resources
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.csproj.GenerateResource.cache
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.csproj.CopyComplete
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.exe
+C:\Users\User\Documents\ProjectsNDevelopment\Development\repos\SisVentas\SisSells\obj\Debug\SisSells.pdb
