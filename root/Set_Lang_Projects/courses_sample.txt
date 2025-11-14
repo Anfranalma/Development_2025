@@ -1,0 +1,1738 @@
+Deploying and Accessing an Application to an AKS Cluster
+
+Containers
+
+Deploy and Run Your First Azure Function
+
+Azure
+
+Configuring Network Interfaces on Linux
+
+Linux
+
+Analyzing Network Traffic on a Linux Host
+
+Linux
+
+Configuring Routing on a Linux Host
+
+Linux
+
+Managing Network Interfaces on a Linux Host
+
+Linux
+
+Deploying an Amazon RDS Multi-AZ and Read Replica
+
+AWS
+
+Restoring an Amazon RDS Instance Using Snapshots
+
+AWS
+
+Creating a DynamoDB Table
+
+AWS
+
+Working with DynamoDB Local and Global Indexes
+
+AWS
+
+Creating an Amazon Aurora RDS Database (MySQL Compatible)
+
+AWS
+
+Creating and Connecting to an Aurora Serverless Database via CLI
+
+AWS
+
+Loading and Retrieving Data in Neptune
+
+AWS
+
+Loading Data into a Redshift Cluster
+
+AWS
+
+Using the AWS DMS to Migrate Data to an Aurora Database
+
+AWS
+
+Migrating from a Relational Database to DynamoDB
+
+AWS
+
+Using Elasticache to Improve Database Performance
+
+AWS
+
+
+
+Accessing Linux Systems Using RHEL 8
+
+Linux
+
+Using Input/Output Redirection and Analyzing Text on RHEL 8
+
+Linux
+
+Managing Files and Directories on RHEL 8
+
+Linux
+
+Creating Simple Shell Scripts
+
+Linux
+
+Managing the Boot Process on RHEL 8
+
+Linux
+
+Managing Processes and Tuned Profiles on RHEL 8
+
+Linux
+
+Working with Log Files and Journals on RHEL 8
+
+Linux
+
+Managing Disk Partitions and Mounts on RHEL 8
+
+Linux
+
+Configuring Logical Volume Management (LVM) Using RHEL 8
+
+Linux
+
+Managing File Systems on RHEL 8
+
+Linux
+
+Working with File and Directory Permissions on RHEL 8
+
+Linux
+
+Managing Layered Local Storage with Stratis on RHEL 8
+
+Linux
+
+Managing Storage Using LVM on VDO on RHEL 8
+
+Linux
+
+Managing Key Services on RHEL 8 - systemd/Scheduling/Time Services
+
+Linux
+
+Managing Packages and Using Application Streams in RHEL 8
+
+Linux
+
+Managing the System Bootloader in RHEL 8
+
+Linux
+
+Managing Basic Networking on RHEL 8
+
+Linux
+
+Managing Users, Groups, and Superuser Access on RHEL 8
+
+Linux
+
+Managing the Firewall on RHEL 8
+
+Linux
+
+Using File Access Control Lists (ACLs) on RHEL 8
+
+Linux
+
+Managing Containers on RHEL 8 Using podman
+
+Linux
+
+Red Hat Certified System Administrator (EX200) - v8 Exam Challenge Lab
+
+Linux
+
+Correcting Code with Cloud Debugger
+
+Google Cloud
+
+Install and Configure Monitoring Agent with Google Cloud Monitoring
+
+Google Cloud
+
+Install and Configure Logging Agent on Google Cloud
+
+Google Cloud
+
+Discovering Latency with Google Cloud Trace
+
+Google Cloud
+
+Creating Multiple Cosmos DB Containers
+
+Azure
+
+Configure Azure SQL with Failover Groups
+
+Azure
+
+Using SCP to Transfer Files Between Systems
+
+Linux
+
+Configuring User Accounts and Permissions on a Development Server
+
+Linux
+
+Creating a Backup Structure and Archiving Files
+
+Linux
+
+Create a Collaborative Directory
+
+Linux
+
+Managing and Troubleshooting System Services and Processes
+
+Linux
+
+Reviewing System Logs and Updating the journald Configuration
+
+Linux
+
+Viewing, Installing and Removing Packages Using YUM and RPM
+
+Linux
+
+Validating Network Configuration and Configuring Network Services
+
+Linux
+
+Practice Exam Lab for PE124
+
+Linux
+
+
+
+Building a Video Transcoding Pipeline Using Elastic Transcoder
+
+AWS
+
+Creating Your Own Serverless Reminder on AWS with Step Functions, API Gateway, Lambda, and S3
+
+AWS
+
+Triggering Lambda from Amazon SQS
+
+AWS
+
+Highly Available and Fault-Tolerant Architecture via Elastic Beanstalk
+
+AWS
+
+Using AWS OpsWorks to Deploy an Application
+
+AWS
+
+Building a Serverless Application Using Step Functions, API Gateway, Lambda, and S3 in AWS
+
+AWS
+
+Applying Disaster Recovery Techniques in AWS
+
+AWS
+
+Setting up Automatic Resource Remediation with AWS Config
+
+AWS
+
+Exposing Kubernetes Pods Using Services
+
+DevOps
+
+Using Kubernetes Services with DNS
+
+DevOps
+
+Using Kubernetes Ingress
+
+DevOps
+
+Managing Container Storage with Kubernetes Volumes
+
+DevOps
+
+Using PersistentVolumes in Kubernetes
+
+DevOps
+
+Troubleshooting a Broken Kubernetes Cluster
+
+DevOps
+
+Troubleshooting a Broken Kubernetes Application
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 1
+
+DevOps
+
+Edit Certified Kubernetes Administrator (CKA) Practice Exam: Part 2
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 3
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 4
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 5
+
+DevOps
+
+Certified Kubernetes Administrator (CKA): Practice Exam: Part 6
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 7
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 8
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 9
+
+DevOps
+
+Certified Kubernetes Administrator (CKA) Practice Exam: Part 10
+
+DevOps
+
+Initializing the Docker Environment
+
+Containers
+
+Working With Prebuilt Docker Images
+
+Containers
+
+Handcrafting a Container Image
+
+Containers
+
+Storing Container Data In Docker Volumes
+
+Containers
+
+Storing Container Data in AWS S3
+
+Containers
+
+Storing Container Data in Google Cloud Storage
+
+Containers
+
+Building Container Images Using Dockerfiles
+
+Containers
+
+Docker Container Networking
+
+Containers
+
+Dockerize a Flask Application
+
+Containers
+
+Building Smaller Images with Mutli-Stage Builds
+
+Containers
+
+
+
+Installing Nomad Server for Use in Dev Mode
+
+DevOps
+
+Installing Nomad on Three Servers
+
+DevOps
+
+Adding a Node to a Cluster in Nomad
+
+DevOps
+
+Enabling Gossip Encryption in Nomad
+
+DevOps
+
+Deploying a Nomad Job via CLI
+
+DevOps
+
+Deploying a Nomad Application in a Cluster
+
+DevOps
+
+Configuring Tasks for a Nomad Application
+
+DevOps
+
+Examining Nomad Logs
+
+DevOps
+
+Upgrading a Running Nomad Job on a Single Node
+
+DevOps
+
+Incremental Upgrades in Nomad
+
+DevOps
+
+sing a Blue/Green Deployment in Nomad
+
+DevOps
+
+Setting an Affinity for a Nomad Job in a Cluster
+
+DevOps
+
+Using Spread Job Placement for a Nomad Job in a Cluster
+
+DevOps
+
+Moving Your Nomad Job from One Node to Another
+
+Deployment
+
+Reviewing Our Code Base with Amazon CodeGuru
+
+DevOps
+
+Optimizing Applications through Amazon CodeGuru’s Profiler
+
+DevOps
+
+Enable Archiving with Azure Blob Storage (New Version)
+
+Azure
+
+L05: Lab: Creating and Mounting Azure File Shares
+
+Azure
+
+L06: Lab: Enabling Encryption in Azure SQL
+
+Azure
+
+L04: Lab: Routing Azure Resource Logs
+
+Azure
+
+Using Azure Key Vault
+
+Azure
+
+Collecting IoT Core Data in GCP Pub/Sub
+
+Google
+
+Viewing Cloud IoT Core Data Using BigQuery
+
+Google
+
+Configure an HTPasswd Identity Provider in OpenShift 4
+
+Containers
+
+Creating and Deleting Users in OpenShift 4
+
+Containers
+
+Creating and Deleting Groups in OpenShift 4
+
+Containers
+
+Creating a Service Account in OpenShift 4
+
+Containers
+
+Creating a Security Context Constraint in OpenShift 4
+
+Containers
+
+Querying Data in Amazon S3 with Amazon Athena
+
+AWS
+
+Using Data Pipeline to Export DynamoDB Data to S3
+
+AWS
+
+Setup AWS Cloudfront Distribution as an HTTP endpoint for S3 Site
+
+AWS
+
+
+
+Install and Configure HashiCorp Vault on Linux
+
+Security
+
+Configure Authentication with HashiCorp Vault
+
+Security
+
+Write and Test a HashiCorp Vault Policy
+
+Security
+
+Configure and Test HashiCorp Vault REST API
+
+Security
+
+Configure SSH for HashiCorp Vault Authentication
+
+Security
+
+Implement a Logging Solution for HashiCorp Vault
+
+Security
+
+Integrating HashiCorp Vault Authentication to a Website
+
+Security
+
+Implement HashiCorp Vault API Authentication
+
+Security
+
+Implement HashiCorp Vault Authentication to MariaDB
+
+Security
+
+Modifying GRUB2 Boot Configuration (CentOS)
+
+Linux
+
+Controlling System Services with Systemd
+
+Linux
+
+Modifying Runlevels on Linux
+
+Linux
+
+
+
+Managing AWS IAM User Permissions Using Groups and Policies
+
+AWS
+
+Preventing Deletion of an Amazon S3 Bucket Using a Resource-Based Policy
+
+AWS
+
+Giving an AWS Lambda Function Access to a DynamoDB Table via an Execution Role
+
+AWS
+
+Limiting Privileged User Access by Setting Permissions Boundaries in AWS IAM
+
+AWS
+
+Troubleshooting and Resolving AWS IAM Errors
+
+AWS
+
+Monitoring, Auditing, and Logging Users and Resource Usage in AWS IAM
+
+AWS
+
+Introduction to Identity and Access Management (IAM)
+
+AWS
+
+Scaling EC2 Using SQS
+
+AWS
+
+Using Service Principal Identity to List AD Roles
+
+Azure
+
+Creating a Group and Adding Members in Azure Active Directory (AAD)
+
+Azure
+
+Add, Remove and Update Tags for Resources in Azure
+
+Azure
+
+Use AzCopy to Transfer Data from One Storage Account to Another
+
+Azure
+
+Expire Data Based on Age in Azure Blob Storage
+
+Azure
+
+Create and Restore File Share Snapshots in Azure
+
+Azure
+
+Create and Manage Storage Containers in Azure Storage Explorer
+
+Azure
+
+Limit Access to Azure Storage Account Using SAS URI
+
+Azure
+
+Use PowerShell to Resize an Azure Virtual Machine in an Availability Set
+
+Azure
+
+Install NGINX on a Linux VM in Deployment with Cloud Init
+
+Azure
+
+Add Existing Data Disk to a VM in Azure
+
+Azure
+
+Using Custom Images for a Virtual Machine Scale Set in Azure
+
+Azure
+
+Access Windows VMs over SSL without Public IPs using Azure Bastion
+
+Azure
+
+Scale Out an App Service Plan Automatically in Azure
+
+Azure
+
+Create Web App from Docker Container in Azure
+
+Azure
+
+Build and Run a Container using Azure ACR Tasks
+
+Azure
+
+Create an AKS Cluster that uses Azure Container Instances
+
+Azure
+
+Creating Multiple Subnets in Azure
+
+Azure
+
+Create an Application Security Group for Two Web Servers in Azure
+
+Azure
+
+Attach a Firewall to a Virtual Network in Azure
+
+Azure
+
+Create a Hub-Spoke Network Topology in Azure
+
+Azure
+
+Create a Virtual Network and Gateway Subnet using PowerShell
+
+Azure
+
+Create a Standard Load Balancer with Azure CLI
+
+Azure
+
+Restore File Share from Azure Backup to Another Storage Account
+
+Azure
+
+Snapshot an Azure VM Disk using PowerShell
+
+Azure
+
+Loading and Retrieving Data in Neptune
+
+AWS
+
+Using Elasticache to Improve Database Performance
+
+AWS
+
+Loading Data into a Redshift Cluster
+
+AWS
+
+
+
+Deploying a Linux VM
+
+Linux
+
+Adding and Encrypting a Storage Volume
+
+Linux
+
+Deploying a Linux Virtual Machine with Cloud-Init
+
+Linux
+
+Configuring iSCSI on Linux
+
+Data Storage
+
+Formatting a Packer Template in JSON
+
+DevOps
+
+Formatting a Packer Template in HCL2
+
+DevOps
+
+Setting Up Packer
+
+DevOps
+
+Adding Packer Plugins
+
+DevOps
+
+Using Packer to Create an AWS AMI
+
+DevOps
+
+Provisioning a Packer Image with Bash
+
+DevOps
+
+Adding Files to a Packer Build
+
+DevOps
+
+Provisioning a Packer Image with Ansible
+
+DevOps
+
+Provisioning a Packer Image with chef-client
+
+DevOps
+
+Provisioning a Packer Image with Puppet Server
+
+DevOps
+
+Provisioning a Packer Image with Masterless Salt
+
+DevOps
+
+Creating Dev and Production Images with Packer in Parallel
+
+DevOps
+
+Using HCL with Packer
+
+DevOps
+
+Debugging a Packer Build
+
+DevOps
+
+Building an Amazon EBS-Based Packer Image
+
+DevOps
+
+Building an Azure ARM-Based Packer Image
+
+DevOps
+
+Building a Google Compute-Backed Image with Packer
+
+DevOps
+
+Building a Docker Image with Packer
+
+DevOps
+
+Building a LXD Image with Packer
+
+DevOps
+
+
+
+Exploring AML Designer Transforms: Clean Missing Data
+
+Azure
+
+Exploring AML Designer Transforms: Add Columns
+
+Azure
+
+Exploring AML Designer Transforms: Apply Math Operation
+
+Azure
+
+AML Designer Transforms: Join Data
+
+Azure
+
+Exploring AML Designer Transforms: Apply SQL Transformation
+
+Azure
+
+Exploring AML Designer Transforms: Edit Metadata and Convert to Indicator Values
+
+Azure
+
+Exploring AML Designer Transforms: Clip Values
+
+Azure
+
+Creating Custom Modules in Azure Machine Learning Designer
+
+Azure
+
+Anomaly Detection in Azure Machine Learning
+
+Azure
+
+Classifications Options in Azure Machine Learning
+
+Azure
+
+Feature Selection Before Training in Azure Machine Learning
+
+Azure
+
+Feature Selection After Training in Azure Machine Learning
+
+Azure
+
+Developing with SMOTE in Azure Machine Learning
+
+Azure
+
+
+
+Email Services: Configuring Postfix
+
+Linux
+
+Email Services: TLS Configuration with Postfix
+
+Linux
+
+Email Services: Filter and Sort with Sieve
+
+Linux
+
+Email Services: Configuring IMAP with Dovecot
+
+Linux
+
+FTP: Configure an FTP Server
+
+Linux
+
+Secure Shell: SSH Configuration
+
+Linux
+
+Secure Shell: Working with SSH Keys
+
+Linux
+
+Creating a Topic and Subscription with Pub/Sub in Google Cloud
+
+Google Cloud
+
+Creating Our First VPC in Google Cloud
+
+Google Cloud
+
+Creating a Cloud SQL Instance in Google Cloud
+
+Google Cloud
+
+Creating a Folder and Uploading an Object in Cloud Storage
+
+Google Cloud
+
+Creating and Configuring a Compute Engine Instance
+
+Google Cloud
+
+Visualizing systemd Startups
+
+Linux
+
+Using systemctl to Configure systemd
+
+Linux
+
+Working with systemd Targets
+
+Linux
+
+Configuring systemd Units
+
+Linux
+
+Configuring systemd Timers
+
+Linux
+
+Configuring systemd Journaling
+
+Linux
+
+Using systemd Containers
+
+Linux
+
+Using systemd cgroups
+
+Linux
+
+
+
+Working with the MongoDB API in Azure Cosmos DB
+
+Azure
+
+Working with the Table API in Azure Cosmos DB
+
+Azure
+
+Working with the Cassandra API in Azure Cosmos DB
+
+Azure
+
+Working with the Gremlin API in Azure Cosmos DB
+
+Azure
+
+Implementing Stored Procedures in Azure Cosmos DB
+
+Azure
+
+Optimizing Azure Cosmos DB to Reduce Cost
+
+Azure
+
+Configuring Azure Cosmos DB for Global Distribution
+
+Azure
+
+Web Services: Configure a Web Server for HTTPS
+
+Linux
+
+Using Azure App Service Deployment Slots with Azure CLI
+
+Azure
+
+Provisioning Azure Cosmos DB Resources
+
+Azure
+
+Working with the Core (SQL) API in Azure Cosmos DB
+
+Azure
+
+
+
+Creating a Static Website Using Amazon S3 - 2020
+
+AWS
+
+Creating a Basic VPC and Associated Components - 2020
+
+AWS
+
+Working with AWS VPC Flow Logs for Network Monitoring - 2020
+
+AWS
+
+Getting Started with CloudFormation - 2020
+
+AWS
+
+Web Services: Install Apache
+
+Linux
+
+Web Services: Configure a Virtual Host on Apache
+
+Linux
+
+Web Services: Create a Proxy Server
+
+Linux
+
+Web Services: Create a Web Server with Nginx
+
+Linux
+
+Performing a Kubernetes Upgrade with Kubeadm
+
+Containers
+
+Backing up and Restoring Kubernetes Data in Etcd
+
+Containers
+
+Exploring a Kubernetes Cluster With Kubectl
+
+Containers
+
+Controlling Access in Kubernetes with RBAC
+
+Containers
+
+Discovering Pod Resource Usage with Kubernetes Metrics
+
+Containers
+
+Passing Configuration Data to a Kubernetes Container
+
+Containers
+
+Building Self-Healing Containers in Kubernetes
+
+Containers
+
+Using Init Containers in Kubernetes
+
+Containers
+
+Assigning a Kubernetes Pod to a Specific Node
+
+Containers
+
+Using DaemonSets in Kubernetes
+
+Containers
+
+Using Static Pods in Kubernetes
+
+Containers
+
+Managing Kubernetes Applications with Deployments
+
+Containers
+
+Exploring Kubernetes Networking
+
+Containers
+
+LDAP: Managing LDAP Users
+
+Linux
+
+LDAP: Create an LDIF File
+
+Linux
+
+LDAP: Configure an OpenLDAP Server
+
+Linux
+
+LDAP: Query and Update an LDAP Server
+
+Linux
+
+NFS: Exporting and Mounting an NFS File System
+
+Linux
+
+NFS: Working with Access Restrictions
+
+Linux
+
+
+
+Working With Jenkins Permissions
+
+DevOps
+
+Configuring Build Agents in Jenkins
+
+DevOps
+
+Upgrading Jenkins
+
+DevOps
+
+Monitoring Jenkins
+
+DevOps
+
+Logging System Utilization Data on a Schedule with nmon
+
+Linux
+
+Installing and Configuring Webmin
+
+Linux
+
+Managing Webmin Administrators Using the Webmin Console
+
+Linux
+
+Installing Cockpit and Additional Modules
+
+Linux
+
+Creating User Accounts and Validating the Docker Module in Cockpit
+
+Linux
+
+Deploying to AWS with Terraform and Ansible
+
+DevOps
+
+Creating a multi-region network with VPC peering using SGs, IGW and RTs
+
+DevOps
+
+Deploying Jenkins Master and Worker nodes in AWS behind an ALB using Terraform & Ansible
+
+DevOps
+
+Creating Route53 records(Alias) to route traffic to an ALB using Terraform
+
+DevOps
+
+Identifying Iris Plants Using Machine Learning
+
+Containers
+
+Building and Deploying An Angular App
+
+Programing
+
+Building and Using a K3s Cluster
+
+Containers
+
+
+
+Troubleshooting a DNS Zone
+
+Linux
+
+Troubleshooting an Apache Installation
+
+Linux
+
+Troubleshooting a SAMBA Installation
+
+Linux
+
+Troubleshooting an LDAP Installation
+
+Linux
+
+Troubleshooting a Postfix installation
+
+Linux
+
+Creating a CI/CD Pipeline on Google Cloud
+
+Google Cloud
+
+Your First Cloud Run Deployment
+
+Containers
+
+Calculating Circular Values with Python's Math Modules
+
+Programming
+
+Creating a Matrix Using NumPy Arrays
+
+Programming
+
+Using Pandas Data Frames and Pivot Tables in Python
+
+Programming
+
+Creating Graphs with Matplotlib
+
+Programming
+
+Editing Images with scikit-image
+
+Programming
+
+Creating a Linux VM using Azure CLI
+
+Azure
+
+Create Azure Blob Storage and Upload a Blob
+
+Azure
+
+An Introduction to Azure Machine Learning Designer
+
+Machine Learning
+
+Exchange the Given For-Loop for a Comprehension
+
+Programming
+
+
+
+Building and Configuring a Kubernetes Cluster with kubeadm
+
+DevOps
+
+Creating and Managing a Software RAID
+
+Linux
+
+Working with Kubernetes Namespaces
+
+DevOps
+
+
+
+Deploy and Configure Kibana for an Elasticsearch Cluster
+
+DevOps
+
+Define User Access Control in Elasticsearch
+
+DevOps
+
+Search Data in Elasticsearch
+
+DevOps
+
+Diagnose and Repair Elasticsearch Indices
+
+DevOps
+
+Aggregate Data in Elasticsearch
+
+DevOps
+
+Execute CRUD Operations in Elasticsearch
+
+DevOps
+
+Define Elasticsearch Indices
+
+DevOps
+
+Encrypt the Elasticsearch Client Network
+
+DevOps
+
+Encrypt the Elasticsearch Transport Network
+
+DevOps
+
+Deploy a Multi-Node Elasticsearch Cluster
+
+DevOps
+
+Enable Elasticsearch Cluster Monitoring
+
+DevOps
+
+
+
+Working with Ansible Playbooks
+
+Linux
+
+Exploring AML Designer Transforms - Clean Missing Data
+
+Azure
+
+Deploying WordPress and MySQL to GKE
+
+Google Cloud
+
+Using YUM for Security Updates
+
+Linux
+
+Create an Amazon S3 Buckets to Manage Objects and Enable Versioning
+
+AWS
+
+
+
+Protecting Script Secrets with Azure Key Vault
+
+Azure
+
+Hello World in GKE
+
+Google Cloud
+
+Backup an Azure Virtual Machine with Azure Backup
+
+Azure
+
+Configure Application Security Groups in Azure
+
+Azure
+
+Configuring Azure Front Door Service
+
+Azure
+
+
+
+Query This Berkeley DB on Linux
+
+Linux
+
+Query This CSV File on Linux
+
+Linux
+
+Query This XML File on Linux
+
+Linux
+
+Query This JSON File on Linux
+
+Linux
+
+Connect to This PostgreSQL Database on Linux
+
+Linux
+
+Connect to This MariaDB Database on Linux
+
+Linux
+
+Connect to This SQL Server Database on Linux
+
+Linux
+
+Query This Couchbase Database on Linux
+
+Linux
+
+Query This MongoDB Database on Linux
+
+Linux
+
+Query This Cassandra Database on Linux
+
+Linux
+
+PostgreSQL Database Replication Demo on Linux
+
+Linux
+
+Creating Swap Space on a Linux System
+
+Linux
+
+
+
+Working with Systemd Mount Units
+
+Linux
+
+Configure /etc/fstab to Persistently Mount a File System
+
+Linux
+
+Creating Btrfs Subvolumes and Snapshots
+
+Linux
+
+Configure AutoFS to Automatically Mount Filesystems
+
+Linux
+
+
+
+Building a Prometheus Server
+
+DevOps
+
+Collecting Linux Server Metrics with Prometheus
+
+DevOps
+
+Locating Time-Series Data in Prometheus
+
+DevOps
+
+Working with Prometheus Metric Types
+
+DevOps
+
+Working with Prometheus Queries
+
+DevOps
+
+Advanced Prometheus Queries
+
+DevOps
+
+Using the Prometheus HTTP API
+
+DevOps
+
+Building a Prometheus Console Template
+
+DevOps
+
+Using the Graph Library in a Prometheus Console Template
+
+DevOps
+
+Building a Grafana Instance to Work with Prometheus Data
+
+DevOps
+
+Building a Prometheus Dashboard in Grafana
+
+DevOps
+
+Collecting Application Metrics with Prometheus
+
+DevOps
+
+Docker Daemon Monitoring with Prometheus
+
+DevOps
+
+Docker Container Monitoring with Prometheus
+
+DevOps
+
+Kubernetes Monitoring with Prometheus
+
+DevOps
+
+Installing Prometheus Pushgateway
+
+DevOps
+
+Monitoring a Batch Job with Prometheus Pushgateway
+
+DevOps
+
+Using Prometheus Recording Rules
+
+DevOps
+
+Installing Prometheus Alertmanager
+
+DevOps
+
+Configuring Prometheus Alertmanager
+
+DevOps
+
+Configuring Prometheus Alertmanager for High Availability
+
+DevOps
+
+Configuring Prometheus Alerts
+
+DevOps
+
+Advanced Configuration for Prometheus Alerts
+
+DevOps
+
+Building a Highly Available Prometheus Setup
+
+DevOps
+
+Implementing Hierarchical Federation With Prometheus
+
+DevOps
+
+Using the Java Client Library for Prometheus
+
+DevOps
+
+Automatic Device Management with Device Twins in Azure
+
+Azure
+
+Working with the Azure IoT Device Provisioning Service
+
+Azure
+
+Provision Simulated Devices with Azure IoT and DPS
+
+Azure
+
+
+
+Pipeline Jobs in Jenkins
+
+Containers
+
+Declarative Pipelines in Jenkins
+
+Containers
+
+Docker in Jenkins Pipelines
+
+Containers
+
+Advanced Jenkins Pipelines
+
+Containers
+
+Deploying a SQL Server on Windows VM in Azure
+
+Azure
+
+Deploying a SQL Server VM in Azure
+
+Azure
+
+Deploying an Azure SQL Database
+
+Azure
+
+Deploying an Azure Database for MySQL
+
+Azure
+
+Deploying an Azure Database for MariaDB
+
+Azure
+
+Deploying an Azure Database for PostgreSQL
+
+Azure
+
+Creating an Azure Storage Table
+
+Azure
+
+Deploying an Azure Cosmos DB Instance
+
+Azure
+
+Deploying Azure Synapse Analytics Pool
+
+Azure
+
+Using SQLite with Python
+
+Programming
+
+Mapping CSV Rows to Dictionaries
+
+Programming
+
+Parsing XML Documents with Python
+
+Programming
+
+Adding Logging to a Python Application
+
+Programming
+
+Working with INI Configuration Files Using configparser
+
+Programming
+
+Utilizing Dates and Times in Python
+
+Programming
+
+Working with Time Zones in Python
+
+Programming
+
+Using Python's os Module
+
+Programming
+
+Working with Streams in Python
+
+Programming
+
+Creating a Virtual Network in Azure Using Azure CLI
+
+Azure
+
+Configuring and Connecting to Azure Files from Windows
+
+Azure
+
+Configure Azure Private Link for Blob Storage
+
+Azure
+
+Configure a Load Balanced VM Scale Set in Azure
+
+Azure
+
+Create a User Delegation SAS using Azure CLI
+
+Azure
+
+Create a Windows Virtual Machine Image in Azure
+
+Azure
+
+Configure Virtual Machine Monitoring in Azure
+
+Azure
+
+Implementing Traffic Shifting Using SAM and CodeDeploy
+
+AWS
+
+
+
+Create a Custom Image with the Given Specifications
+
+Security
+
+Configure Resource Limits
+
+Security
+
+Modify Seccomp Profile of a Container
+
+Security
+
+Design a Container to Run a Proxy
+
+Security
+
+Create and Deploy an Application Back End
+
+Security
+
+Deploy a Tomcat Application Statically
+
+DevOps
+
+Deploy a Tomcat Application Dynamically
+
+DevOps
+
+Backup and Restore Tomcat
+
+DevOps
+
+Enable Verbose Garbage Collection
+
+DevOps
+
+
+
+Implementing Traffic Shifting Using SAM and CodeDeploy
+
+AWS
+
+Installing Tomcat
+
+DevOps
+
+Adding a User to Tomcat
+
+DevOps
+
+Tomcat on a Different Port
+
+DevOps
+
+Change Tomcat for External Access
+
+DevOps
+
+Set up Apache as a Proxy to Tomcat
+
+DevOps
+
+Load Balance a Tomcat Application
+
+DevOps
+
+Deploy a Tomcat Application Using the GUI
+
+DevOps
+
+Deploy a Tomcat Application Using the CLI
+
+DevOps
+
+Configure Logging in Tomcat
+
+DevOps
+
+Create Java Heap Dumps for Tomcat
+
+DevOps
+
+Set Fixed Heap Size in Tomcat
+
+DevOps
+
+Creating a Serverless Application Using S3, HTTP API, Lambda, and DynamoDB
+
+AWS
+
+Configuring a Custom Domain with Amazon Cognito
+
+AWS
+
+Deploying a Serverless Application Using AWS SAM
+
+AWS
+
+
+
+DNS: Configure a Caching Only Name Server
+
+Linux
+
+DNS: Working with RNDC Keys
+
+Linux
+
+DNS: Create a Forward Zone
+
+Linux
+
+DNS: Create a Reverse Zone File
+
+Linux
+
+DNS: DNS Querying
+
+Linux
+
+DNS: Create a chroot Jail
+
+Linux
+
